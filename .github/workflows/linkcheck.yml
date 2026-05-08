@@ -24,7 +24,6 @@ jobs:
             --no-progress
             --max-redirects 5
             --timeout 20
-            --exclude-mail
             './**/*.html'
             './**/*.md'
           fail: true
