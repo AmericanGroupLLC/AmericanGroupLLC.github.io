@@ -13,6 +13,24 @@
     "badge": "Enterprise",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/cognicore-ai-platform"
+    },
+    "archetype": "ai_agent",
+    "icon": "\ud83e\udde0",
+    "theme_color": "#6366f1",
+    "bg_gradient": "from-indigo-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "Local Offline Execution: Runs completely without internet using highly-optimized quantized model weights.",
+      "Multi-Agent Orchestration: Spawns specialized sub-agents to parallel-process complex cognitive tasks.",
+      "Zero-Data Leakage: All conversational histories, documents, and transcripts stay encrypted on local hardware.",
+      "Smart-Reply Integration: Seamless system-wide hook to provide contextual suggestions across any application."
+    ],
+    "specs": {
+      "Architecture": "Quantized Transformer (GGUF/ONNX)",
+      "Parameters": "1.5B - 7B (On-Device optimized)",
+      "Context Window": "8,192 tokens",
+      "Inference Engine": "Llama.cpp / WebNN",
+      "Privacy Rating": "100% On-Device / Zero Cloud Leakage"
     }
   },
   "thinking-machines-lab": {
@@ -28,6 +46,24 @@
     "badge": "R&D",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/thinking-machines-lab"
+    },
+    "archetype": "ai_agent",
+    "icon": "\ud83e\udde0",
+    "theme_color": "#6366f1",
+    "bg_gradient": "from-indigo-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "Local Offline Execution: Runs completely without internet using highly-optimized quantized model weights.",
+      "Multi-Agent Orchestration: Spawns specialized sub-agents to parallel-process complex cognitive tasks.",
+      "Zero-Data Leakage: All conversational histories, documents, and transcripts stay encrypted on local hardware.",
+      "Smart-Reply Integration: Seamless system-wide hook to provide contextual suggestions across any application."
+    ],
+    "specs": {
+      "Architecture": "Quantized Transformer (GGUF/ONNX)",
+      "Parameters": "1.5B - 7B (On-Device optimized)",
+      "Context Window": "8,192 tokens",
+      "Inference Engine": "Llama.cpp / WebNN",
+      "Privacy Rating": "100% On-Device / Zero Cloud Leakage"
     }
   },
   "cognission-ai": {
@@ -43,6 +79,24 @@
     "badge": "AI Platform",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/cognission-ai"
+    },
+    "archetype": "ai_agent",
+    "icon": "\ud83e\udde0",
+    "theme_color": "#6366f1",
+    "bg_gradient": "from-indigo-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "Local Offline Execution: Runs completely without internet using highly-optimized quantized model weights.",
+      "Multi-Agent Orchestration: Spawns specialized sub-agents to parallel-process complex cognitive tasks.",
+      "Zero-Data Leakage: All conversational histories, documents, and transcripts stay encrypted on local hardware.",
+      "Smart-Reply Integration: Seamless system-wide hook to provide contextual suggestions across any application."
+    ],
+    "specs": {
+      "Architecture": "Quantized Transformer (GGUF/ONNX)",
+      "Parameters": "1.5B - 7B (On-Device optimized)",
+      "Context Window": "8,192 tokens",
+      "Inference Engine": "Llama.cpp / WebNN",
+      "Privacy Rating": "100% On-Device / Zero Cloud Leakage"
     }
   },
   "docstream-enterprise": {
@@ -58,6 +112,24 @@
     "badge": "Enterprise",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/docstream-enterprise"
+    },
+    "archetype": "productivity",
+    "icon": "\u26a1",
+    "theme_color": "#3b82f6",
+    "bg_gradient": "from-blue-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "CRDT State Synchronization: Conflict-free real-time state synchronization for seamless offline/online transitions.",
+      "Optimistic UI Rendering: Updates interface state instantly and resolves server sync in the background.",
+      "Secure Local Cache: AES-256 encrypted IndexedDB cache ensuring zero data loss during network disruptions.",
+      "Rich Document Pipeline: Universal export to PDF, Excel, Markdown, and structured JSON with a single click."
+    ],
+    "specs": {
+      "Sync Protocol": "CRDT (Conflict-free Replicated Data Types)",
+      "Local Storage": "IndexedDB with AES-256",
+      "File Export": "PDF, Excel, Markdown",
+      "Collaboration": "Multi-user real-time state sync",
+      "Offline Mode": "Optimistic UI updates with offline-first design"
     }
   },
   "datacore-enterprise": {
@@ -73,6 +145,24 @@
     "badge": "Platform",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/datacore-enterprise"
+    },
+    "archetype": "productivity",
+    "icon": "\u26a1",
+    "theme_color": "#3b82f6",
+    "bg_gradient": "from-blue-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "CRDT State Synchronization: Conflict-free real-time state synchronization for seamless offline/online transitions.",
+      "Optimistic UI Rendering: Updates interface state instantly and resolves server sync in the background.",
+      "Secure Local Cache: AES-256 encrypted IndexedDB cache ensuring zero data loss during network disruptions.",
+      "Rich Document Pipeline: Universal export to PDF, Excel, Markdown, and structured JSON with a single click."
+    ],
+    "specs": {
+      "Sync Protocol": "CRDT (Conflict-free Replicated Data Types)",
+      "Local Storage": "IndexedDB with AES-256",
+      "File Export": "PDF, Excel, Markdown",
+      "Collaboration": "Multi-user real-time state sync",
+      "Offline Mode": "Optimistic UI updates with offline-first design"
     }
   },
   "infraforge-enterprise": {
@@ -88,6 +178,24 @@
     "badge": "Infra",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/infraforge-enterprise"
+    },
+    "archetype": "productivity",
+    "icon": "\u26a1",
+    "theme_color": "#3b82f6",
+    "bg_gradient": "from-blue-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "CRDT State Synchronization: Conflict-free real-time state synchronization for seamless offline/online transitions.",
+      "Optimistic UI Rendering: Updates interface state instantly and resolves server sync in the background.",
+      "Secure Local Cache: AES-256 encrypted IndexedDB cache ensuring zero data loss during network disruptions.",
+      "Rich Document Pipeline: Universal export to PDF, Excel, Markdown, and structured JSON with a single click."
+    ],
+    "specs": {
+      "Sync Protocol": "CRDT (Conflict-free Replicated Data Types)",
+      "Local Storage": "IndexedDB with AES-256",
+      "File Export": "PDF, Excel, Markdown",
+      "Collaboration": "Multi-user real-time state sync",
+      "Offline Mode": "Optimistic UI updates with offline-first design"
     }
   },
   "audiosphere-suite": {
@@ -103,6 +211,24 @@
     "badge": "Suite",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/audiosphere-suite"
+    },
+    "archetype": "productivity",
+    "icon": "\u26a1",
+    "theme_color": "#3b82f6",
+    "bg_gradient": "from-blue-950/40 to-slate-950",
+    "sim_type": "mobile",
+    "features": [
+      "CRDT State Synchronization: Conflict-free real-time state synchronization for seamless offline/online transitions.",
+      "Optimistic UI Rendering: Updates interface state instantly and resolves server sync in the background.",
+      "Secure Local Cache: AES-256 encrypted IndexedDB cache ensuring zero data loss during network disruptions.",
+      "Rich Document Pipeline: Universal export to PDF, Excel, Markdown, and structured JSON with a single click."
+    ],
+    "specs": {
+      "Sync Protocol": "CRDT (Conflict-free Replicated Data Types)",
+      "Local Storage": "IndexedDB with AES-256",
+      "File Export": "PDF, Excel, Markdown",
+      "Collaboration": "Multi-user real-time state sync",
+      "Offline Mode": "Optimistic UI updates with offline-first design"
     }
   },
   "productivity-suite": {
@@ -118,6 +244,24 @@
     "badge": "Suite",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/productivity-suite"
+    },
+    "archetype": "productivity",
+    "icon": "\u26a1",
+    "theme_color": "#3b82f6",
+    "bg_gradient": "from-blue-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "CRDT State Synchronization: Conflict-free real-time state synchronization for seamless offline/online transitions.",
+      "Optimistic UI Rendering: Updates interface state instantly and resolves server sync in the background.",
+      "Secure Local Cache: AES-256 encrypted IndexedDB cache ensuring zero data loss during network disruptions.",
+      "Rich Document Pipeline: Universal export to PDF, Excel, Markdown, and structured JSON with a single click."
+    ],
+    "specs": {
+      "Sync Protocol": "CRDT (Conflict-free Replicated Data Types)",
+      "Local Storage": "IndexedDB with AES-256",
+      "File Export": "PDF, Excel, Markdown",
+      "Collaboration": "Multi-user real-time state sync",
+      "Offline Mode": "Optimistic UI updates with offline-first design"
     }
   },
   "ai-vertical-platform-suite": {
@@ -133,6 +277,24 @@
     "badge": "Platform",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/ai-vertical-platform-suite"
+    },
+    "archetype": "ai_agent",
+    "icon": "\ud83e\udde0",
+    "theme_color": "#6366f1",
+    "bg_gradient": "from-indigo-950/40 to-slate-950",
+    "sim_type": "mobile",
+    "features": [
+      "Local Offline Execution: Runs completely without internet using highly-optimized quantized model weights.",
+      "Multi-Agent Orchestration: Spawns specialized sub-agents to parallel-process complex cognitive tasks.",
+      "Zero-Data Leakage: All conversational histories, documents, and transcripts stay encrypted on local hardware.",
+      "Smart-Reply Integration: Seamless system-wide hook to provide contextual suggestions across any application."
+    ],
+    "specs": {
+      "Architecture": "Quantized Transformer (GGUF/ONNX)",
+      "Parameters": "1.5B - 7B (On-Device optimized)",
+      "Context Window": "8,192 tokens",
+      "Inference Engine": "Llama.cpp / WebNN",
+      "Privacy Rating": "100% On-Device / Zero Cloud Leakage"
     }
   },
   "verba": {
@@ -149,6 +311,24 @@
     "badge": "Mobile + Web",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/Verba"
+    },
+    "archetype": "ai_agent",
+    "icon": "\ud83e\udde0",
+    "theme_color": "#6366f1",
+    "bg_gradient": "from-indigo-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "Local Offline Execution: Runs completely without internet using highly-optimized quantized model weights.",
+      "Multi-Agent Orchestration: Spawns specialized sub-agents to parallel-process complex cognitive tasks.",
+      "Zero-Data Leakage: All conversational histories, documents, and transcripts stay encrypted on local hardware.",
+      "Smart-Reply Integration: Seamless system-wide hook to provide contextual suggestions across any application."
+    ],
+    "specs": {
+      "Architecture": "Quantized Transformer (GGUF/ONNX)",
+      "Parameters": "1.5B - 7B (On-Device optimized)",
+      "Context Window": "8,192 tokens",
+      "Inference Engine": "Llama.cpp / WebNN",
+      "Privacy Rating": "100% On-Device / Zero Cloud Leakage"
     }
   },
   "agrammarly": {
@@ -164,6 +344,24 @@
     "badge": "Tool",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/AGrammarly"
+    },
+    "archetype": "ai_agent",
+    "icon": "\ud83e\udde0",
+    "theme_color": "#6366f1",
+    "bg_gradient": "from-indigo-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "Local Offline Execution: Runs completely without internet using highly-optimized quantized model weights.",
+      "Multi-Agent Orchestration: Spawns specialized sub-agents to parallel-process complex cognitive tasks.",
+      "Zero-Data Leakage: All conversational histories, documents, and transcripts stay encrypted on local hardware.",
+      "Smart-Reply Integration: Seamless system-wide hook to provide contextual suggestions across any application."
+    ],
+    "specs": {
+      "Architecture": "Quantized Transformer (GGUF/ONNX)",
+      "Parameters": "1.5B - 7B (On-Device optimized)",
+      "Context Window": "8,192 tokens",
+      "Inference Engine": "Llama.cpp / WebNN",
+      "Privacy Rating": "100% On-Device / Zero Cloud Leakage"
     }
   },
   "agstudio-iquantum-studio": {
@@ -179,6 +377,24 @@
     "badge": "Studio",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/AGStudio"
+    },
+    "archetype": "productivity",
+    "icon": "\u26a1",
+    "theme_color": "#3b82f6",
+    "bg_gradient": "from-blue-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "CRDT State Synchronization: Conflict-free real-time state synchronization for seamless offline/online transitions.",
+      "Optimistic UI Rendering: Updates interface state instantly and resolves server sync in the background.",
+      "Secure Local Cache: AES-256 encrypted IndexedDB cache ensuring zero data loss during network disruptions.",
+      "Rich Document Pipeline: Universal export to PDF, Excel, Markdown, and structured JSON with a single click."
+    ],
+    "specs": {
+      "Sync Protocol": "CRDT (Conflict-free Replicated Data Types)",
+      "Local Storage": "IndexedDB with AES-256",
+      "File Export": "PDF, Excel, Markdown",
+      "Collaboration": "Multi-user real-time state sync",
+      "Offline Mode": "Optimistic UI updates with offline-first design"
     }
   },
   "careerupgrade-ai": {
@@ -194,6 +410,24 @@
     "badge": "SaaS",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/CareerUpgradeAI"
+    },
+    "archetype": "mobile_health",
+    "icon": "\ud83c\udfe5",
+    "theme_color": "#10b981",
+    "bg_gradient": "from-emerald-950/40 to-slate-950",
+    "sim_type": "mobile",
+    "features": [
+      "Continuous Telemetry Sync: Connects with WHOOP, Oura, Fitbit, and Apple HealthKit for real-time vitals tracking.",
+      "Local-First Encryption: Patient PHI and clinical metrics are encrypted locally with biometric access locks.",
+      "Automated Clinical Audit Logs: Immutable log records for HIPAA compliance with automated 6-year retention pruning.",
+      "AI-Driven Health Coaching: Personalized health, recovery, and sleep recommendations computed entirely on-device."
+    ],
+    "specs": {
+      "Compliance": "HIPAA compliant, PHI-encrypted",
+      "Data Sync": "Apple HealthKit / Google Health Connect",
+      "Local Storage": "Encrypted SQLite (SQLCipher)",
+      "Offline Mode": "Full Offline caching with background sync",
+      "Audit Logging": "Automated clinical audit logs (6-year retention)"
     }
   },
   "lifeadmin-ai": {
@@ -209,6 +443,24 @@
     "badge": "Consumer AI",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/LifeAdminAI"
+    },
+    "archetype": "ai_agent",
+    "icon": "\ud83e\udde0",
+    "theme_color": "#6366f1",
+    "bg_gradient": "from-indigo-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "Local Offline Execution: Runs completely without internet using highly-optimized quantized model weights.",
+      "Multi-Agent Orchestration: Spawns specialized sub-agents to parallel-process complex cognitive tasks.",
+      "Zero-Data Leakage: All conversational histories, documents, and transcripts stay encrypted on local hardware.",
+      "Smart-Reply Integration: Seamless system-wide hook to provide contextual suggestions across any application."
+    ],
+    "specs": {
+      "Architecture": "Quantized Transformer (GGUF/ONNX)",
+      "Parameters": "1.5B - 7B (On-Device optimized)",
+      "Context Window": "8,192 tokens",
+      "Inference Engine": "Llama.cpp / WebNN",
+      "Privacy Rating": "100% On-Device / Zero Cloud Leakage"
     }
   },
   "myhealth": {
@@ -225,6 +477,24 @@
     "badge": "Tier 1",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/MyHealth"
+    },
+    "archetype": "mobile_health",
+    "icon": "\ud83c\udfe5",
+    "theme_color": "#10b981",
+    "bg_gradient": "from-emerald-950/40 to-slate-950",
+    "sim_type": "mobile",
+    "features": [
+      "Continuous Telemetry Sync: Connects with WHOOP, Oura, Fitbit, and Apple HealthKit for real-time vitals tracking.",
+      "Local-First Encryption: Patient PHI and clinical metrics are encrypted locally with biometric access locks.",
+      "Automated Clinical Audit Logs: Immutable log records for HIPAA compliance with automated 6-year retention pruning.",
+      "AI-Driven Health Coaching: Personalized health, recovery, and sleep recommendations computed entirely on-device."
+    ],
+    "specs": {
+      "Compliance": "HIPAA compliant, PHI-encrypted",
+      "Data Sync": "Apple HealthKit / Google Health Connect",
+      "Local Storage": "Encrypted SQLite (SQLCipher)",
+      "Offline Mode": "Full Offline caching with background sync",
+      "Audit Logging": "Automated clinical audit logs (6-year retention)"
     }
   },
   "virtuband": {
@@ -240,6 +510,24 @@
     "badge": "Mobile",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/VirtuBand"
+    },
+    "archetype": "mobile_health",
+    "icon": "\ud83c\udfe5",
+    "theme_color": "#10b981",
+    "bg_gradient": "from-emerald-950/40 to-slate-950",
+    "sim_type": "mobile",
+    "features": [
+      "Continuous Telemetry Sync: Connects with WHOOP, Oura, Fitbit, and Apple HealthKit for real-time vitals tracking.",
+      "Local-First Encryption: Patient PHI and clinical metrics are encrypted locally with biometric access locks.",
+      "Automated Clinical Audit Logs: Immutable log records for HIPAA compliance with automated 6-year retention pruning.",
+      "AI-Driven Health Coaching: Personalized health, recovery, and sleep recommendations computed entirely on-device."
+    ],
+    "specs": {
+      "Compliance": "HIPAA compliant, PHI-encrypted",
+      "Data Sync": "Apple HealthKit / Google Health Connect",
+      "Local Storage": "Encrypted SQLite (SQLCipher)",
+      "Offline Mode": "Full Offline caching with background sync",
+      "Audit Logging": "Automated clinical audit logs (6-year retention)"
     }
   },
   "nearserve-urbanneeds": {
@@ -256,6 +544,24 @@
     "badge": "Mobile",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/NearServe"
+    },
+    "archetype": "productivity",
+    "icon": "\u26a1",
+    "theme_color": "#3b82f6",
+    "bg_gradient": "from-blue-950/40 to-slate-950",
+    "sim_type": "mobile",
+    "features": [
+      "CRDT State Synchronization: Conflict-free real-time state synchronization for seamless offline/online transitions.",
+      "Optimistic UI Rendering: Updates interface state instantly and resolves server sync in the background.",
+      "Secure Local Cache: AES-256 encrypted IndexedDB cache ensuring zero data loss during network disruptions.",
+      "Rich Document Pipeline: Universal export to PDF, Excel, Markdown, and structured JSON with a single click."
+    ],
+    "specs": {
+      "Sync Protocol": "CRDT (Conflict-free Replicated Data Types)",
+      "Local Storage": "IndexedDB with AES-256",
+      "File Export": "PDF, Excel, Markdown",
+      "Collaboration": "Multi-user real-time state sync",
+      "Offline Mode": "Optimistic UI updates with offline-first design"
     }
   },
   "local-buddy": {
@@ -272,6 +578,24 @@
     "badge": "iOS",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/localBuddy"
+    },
+    "archetype": "ai_agent",
+    "icon": "\ud83e\udde0",
+    "theme_color": "#6366f1",
+    "bg_gradient": "from-indigo-950/40 to-slate-950",
+    "sim_type": "mobile",
+    "features": [
+      "Local Offline Execution: Runs completely without internet using highly-optimized quantized model weights.",
+      "Multi-Agent Orchestration: Spawns specialized sub-agents to parallel-process complex cognitive tasks.",
+      "Zero-Data Leakage: All conversational histories, documents, and transcripts stay encrypted on local hardware.",
+      "Smart-Reply Integration: Seamless system-wide hook to provide contextual suggestions across any application."
+    ],
+    "specs": {
+      "Architecture": "Quantized Transformer (GGUF/ONNX)",
+      "Parameters": "1.5B - 7B (On-Device optimized)",
+      "Context Window": "8,192 tokens",
+      "Inference Engine": "Llama.cpp / WebNN",
+      "Privacy Rating": "100% On-Device / Zero Cloud Leakage"
     }
   },
   "offline-buddy": {
@@ -288,6 +612,24 @@
     "badge": "iOS",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/OfflineBuddy"
+    },
+    "archetype": "ai_agent",
+    "icon": "\ud83e\udde0",
+    "theme_color": "#6366f1",
+    "bg_gradient": "from-indigo-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "Local Offline Execution: Runs completely without internet using highly-optimized quantized model weights.",
+      "Multi-Agent Orchestration: Spawns specialized sub-agents to parallel-process complex cognitive tasks.",
+      "Zero-Data Leakage: All conversational histories, documents, and transcripts stay encrypted on local hardware.",
+      "Smart-Reply Integration: Seamless system-wide hook to provide contextual suggestions across any application."
+    ],
+    "specs": {
+      "Architecture": "Quantized Transformer (GGUF/ONNX)",
+      "Parameters": "1.5B - 7B (On-Device optimized)",
+      "Context Window": "8,192 tokens",
+      "Inference Engine": "Llama.cpp / WebNN",
+      "Privacy Rating": "100% On-Device / Zero Cloud Leakage"
     }
   },
   "buddyplay": {
@@ -304,6 +646,24 @@
     "badge": "Gaming",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/BuddyPlay"
+    },
+    "archetype": "ai_agent",
+    "icon": "\ud83e\udde0",
+    "theme_color": "#6366f1",
+    "bg_gradient": "from-indigo-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "Local Offline Execution: Runs completely without internet using highly-optimized quantized model weights.",
+      "Multi-Agent Orchestration: Spawns specialized sub-agents to parallel-process complex cognitive tasks.",
+      "Zero-Data Leakage: All conversational histories, documents, and transcripts stay encrypted on local hardware.",
+      "Smart-Reply Integration: Seamless system-wide hook to provide contextual suggestions across any application."
+    ],
+    "specs": {
+      "Architecture": "Quantized Transformer (GGUF/ONNX)",
+      "Parameters": "1.5B - 7B (On-Device optimized)",
+      "Context Window": "8,192 tokens",
+      "Inference Engine": "Llama.cpp / WebNN",
+      "Privacy Rating": "100% On-Device / Zero Cloud Leakage"
     }
   },
   "agcleaner": {
@@ -321,6 +681,24 @@
     "badge": "Utility",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/AGCleaner"
+    },
+    "archetype": "cybersecurity",
+    "icon": "\ud83d\udee1\ufe0f",
+    "theme_color": "#f43f5e",
+    "bg_gradient": "from-rose-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "Zero-Trust Access Control: Integrates with IDgo SSO to enforce continuous multi-factor cryptographic authentication.",
+      "Kernel-Level Threat Shield: Active packet filtering and rate limiting to prevent DDOS and port-scanning exploits.",
+      "Tamper-Proof SIEM Logs: Real-time heuristic anomaly detection stream with cryptographic log sealing.",
+      "Secure Sandbox Isolation: Isolates untrusted application processes to prevent system-wide memory leaks and privilege escalation."
+    ],
+    "specs": {
+      "Protocol": "WireGuard, Zero-Trust Network Access (ZTNA)",
+      "Authentication": "IDgo SSO / Multi-Factor Biometrics",
+      "Threat Shield": "Kernel-level packet filtering, rate limiting",
+      "Audit Trail": "Chained tamper-proof audit logs",
+      "SIEM Engine": "Real-time heuristic anomaly detection"
     }
   },
   "agrecorder": {
@@ -336,6 +714,24 @@
     "badge": "Utility",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/AGRecorder"
+    },
+    "archetype": "productivity",
+    "icon": "\u26a1",
+    "theme_color": "#3b82f6",
+    "bg_gradient": "from-blue-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "CRDT State Synchronization: Conflict-free real-time state synchronization for seamless offline/online transitions.",
+      "Optimistic UI Rendering: Updates interface state instantly and resolves server sync in the background.",
+      "Secure Local Cache: AES-256 encrypted IndexedDB cache ensuring zero data loss during network disruptions.",
+      "Rich Document Pipeline: Universal export to PDF, Excel, Markdown, and structured JSON with a single click."
+    ],
+    "specs": {
+      "Sync Protocol": "CRDT (Conflict-free Replicated Data Types)",
+      "Local Storage": "IndexedDB with AES-256",
+      "File Export": "PDF, Excel, Markdown",
+      "Collaboration": "Multi-user real-time state sync",
+      "Offline Mode": "Optimistic UI updates with offline-first design"
     }
   },
   "plantpulse": {
@@ -351,6 +747,24 @@
     "badge": "Lifestyle",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/PlantPulse"
+    },
+    "archetype": "productivity",
+    "icon": "\u26a1",
+    "theme_color": "#3b82f6",
+    "bg_gradient": "from-blue-950/40 to-slate-950",
+    "sim_type": "mobile",
+    "features": [
+      "CRDT State Synchronization: Conflict-free real-time state synchronization for seamless offline/online transitions.",
+      "Optimistic UI Rendering: Updates interface state instantly and resolves server sync in the background.",
+      "Secure Local Cache: AES-256 encrypted IndexedDB cache ensuring zero data loss during network disruptions.",
+      "Rich Document Pipeline: Universal export to PDF, Excel, Markdown, and structured JSON with a single click."
+    ],
+    "specs": {
+      "Sync Protocol": "CRDT (Conflict-free Replicated Data Types)",
+      "Local Storage": "IndexedDB with AES-256",
+      "File Export": "PDF, Excel, Markdown",
+      "Collaboration": "Multi-user real-time state sync",
+      "Offline Mode": "Optimistic UI updates with offline-first design"
     }
   },
   "roomcraft": {
@@ -367,6 +781,24 @@
     "badge": "Lifestyle",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/RoomCraft"
+    },
+    "archetype": "spatial_xr",
+    "icon": "\ud83d\udc53",
+    "theme_color": "#8b5cf6",
+    "bg_gradient": "from-violet-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "Neural PBR Rendering: Real-time edge-accelerated rendering of glTF and USDZ models with realistic material textures.",
+      "6-DoF SLAM Tracking: Highly accurate spatial positioning and room boundary mapping for Vision Pro and Quest 3.",
+      "Interactive Room Redesign: OCR room layout analyzer with drag-and-drop 3D furniture placement by square footage.",
+      "Collaborative Spatial Canvas: Synchronizes spatial coordinate states across multiple remote users in real-time."
+    ],
+    "specs": {
+      "Graphics Engine": "WebXR / Metal / Vulkan",
+      "3D Formats": "USDZ, glTF 2.0 with PBR textures",
+      "Tracking": "6-DoF SLAM spatial tracking",
+      "Device Support": "Apple Vision Pro, Meta Quest 3, Mobile Web",
+      "Processing": "Edge-accelerated neural rendering"
     }
   },
   "chefcount": {
@@ -382,6 +814,24 @@
     "badge": "Lifestyle",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/ChefCount"
+    },
+    "archetype": "mobile_health",
+    "icon": "\ud83c\udfe5",
+    "theme_color": "#10b981",
+    "bg_gradient": "from-emerald-950/40 to-slate-950",
+    "sim_type": "mobile",
+    "features": [
+      "Continuous Telemetry Sync: Connects with WHOOP, Oura, Fitbit, and Apple HealthKit for real-time vitals tracking.",
+      "Local-First Encryption: Patient PHI and clinical metrics are encrypted locally with biometric access locks.",
+      "Automated Clinical Audit Logs: Immutable log records for HIPAA compliance with automated 6-year retention pruning.",
+      "AI-Driven Health Coaching: Personalized health, recovery, and sleep recommendations computed entirely on-device."
+    ],
+    "specs": {
+      "Compliance": "HIPAA compliant, PHI-encrypted",
+      "Data Sync": "Apple HealthKit / Google Health Connect",
+      "Local Storage": "Encrypted SQLite (SQLCipher)",
+      "Offline Mode": "Full Offline caching with background sync",
+      "Audit Logging": "Automated clinical audit logs (6-year retention)"
     }
   },
   "eventglow": {
@@ -398,6 +848,24 @@
     "badge": "Lifestyle",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/EventGlow"
+    },
+    "archetype": "productivity",
+    "icon": "\u26a1",
+    "theme_color": "#3b82f6",
+    "bg_gradient": "from-blue-950/40 to-slate-950",
+    "sim_type": "mobile",
+    "features": [
+      "CRDT State Synchronization: Conflict-free real-time state synchronization for seamless offline/online transitions.",
+      "Optimistic UI Rendering: Updates interface state instantly and resolves server sync in the background.",
+      "Secure Local Cache: AES-256 encrypted IndexedDB cache ensuring zero data loss during network disruptions.",
+      "Rich Document Pipeline: Universal export to PDF, Excel, Markdown, and structured JSON with a single click."
+    ],
+    "specs": {
+      "Sync Protocol": "CRDT (Conflict-free Replicated Data Types)",
+      "Local Storage": "IndexedDB with AES-256",
+      "File Export": "PDF, Excel, Markdown",
+      "Collaboration": "Multi-user real-time state sync",
+      "Offline Mode": "Optimistic UI updates with offline-first design"
     }
   },
   "chronic-care": {
@@ -415,6 +883,24 @@
     "badge": "Health",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/chronic-care"
+    },
+    "archetype": "mobile_health",
+    "icon": "\ud83c\udfe5",
+    "theme_color": "#10b981",
+    "bg_gradient": "from-emerald-950/40 to-slate-950",
+    "sim_type": "mobile",
+    "features": [
+      "Continuous Telemetry Sync: Connects with WHOOP, Oura, Fitbit, and Apple HealthKit for real-time vitals tracking.",
+      "Local-First Encryption: Patient PHI and clinical metrics are encrypted locally with biometric access locks.",
+      "Automated Clinical Audit Logs: Immutable log records for HIPAA compliance with automated 6-year retention pruning.",
+      "AI-Driven Health Coaching: Personalized health, recovery, and sleep recommendations computed entirely on-device."
+    ],
+    "specs": {
+      "Compliance": "HIPAA compliant, PHI-encrypted",
+      "Data Sync": "Apple HealthKit / Google Health Connect",
+      "Local Storage": "Encrypted SQLite (SQLCipher)",
+      "Offline Mode": "Full Offline caching with background sync",
+      "Audit Logging": "Automated clinical audit logs (6-year retention)"
     }
   },
   "driftdate": {
@@ -431,6 +917,24 @@
     "badge": "Social",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/DriftDate"
+    },
+    "archetype": "productivity",
+    "icon": "\u26a1",
+    "theme_color": "#3b82f6",
+    "bg_gradient": "from-blue-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "CRDT State Synchronization: Conflict-free real-time state synchronization for seamless offline/online transitions.",
+      "Optimistic UI Rendering: Updates interface state instantly and resolves server sync in the background.",
+      "Secure Local Cache: AES-256 encrypted IndexedDB cache ensuring zero data loss during network disruptions.",
+      "Rich Document Pipeline: Universal export to PDF, Excel, Markdown, and structured JSON with a single click."
+    ],
+    "specs": {
+      "Sync Protocol": "CRDT (Conflict-free Replicated Data Types)",
+      "Local Storage": "IndexedDB with AES-256",
+      "File Export": "PDF, Excel, Markdown",
+      "Collaboration": "Multi-user real-time state sync",
+      "Offline Mode": "Optimistic UI updates with offline-first design"
     }
   },
   "imeasure": {
@@ -447,6 +951,24 @@
     "badge": "Utility",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/iMeasure"
+    },
+    "archetype": "productivity",
+    "icon": "\u26a1",
+    "theme_color": "#3b82f6",
+    "bg_gradient": "from-blue-950/40 to-slate-950",
+    "sim_type": "mobile",
+    "features": [
+      "CRDT State Synchronization: Conflict-free real-time state synchronization for seamless offline/online transitions.",
+      "Optimistic UI Rendering: Updates interface state instantly and resolves server sync in the background.",
+      "Secure Local Cache: AES-256 encrypted IndexedDB cache ensuring zero data loss during network disruptions.",
+      "Rich Document Pipeline: Universal export to PDF, Excel, Markdown, and structured JSON with a single click."
+    ],
+    "specs": {
+      "Sync Protocol": "CRDT (Conflict-free Replicated Data Types)",
+      "Local Storage": "IndexedDB with AES-256",
+      "File Export": "PDF, Excel, Markdown",
+      "Collaboration": "Multi-user real-time state sync",
+      "Offline Mode": "Optimistic UI updates with offline-first design"
     }
   },
   "mycard": {
@@ -463,6 +985,24 @@
     "badge": "Productivity",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/MyCard"
+    },
+    "archetype": "productivity",
+    "icon": "\u26a1",
+    "theme_color": "#3b82f6",
+    "bg_gradient": "from-blue-950/40 to-slate-950",
+    "sim_type": "mobile",
+    "features": [
+      "CRDT State Synchronization: Conflict-free real-time state synchronization for seamless offline/online transitions.",
+      "Optimistic UI Rendering: Updates interface state instantly and resolves server sync in the background.",
+      "Secure Local Cache: AES-256 encrypted IndexedDB cache ensuring zero data loss during network disruptions.",
+      "Rich Document Pipeline: Universal export to PDF, Excel, Markdown, and structured JSON with a single click."
+    ],
+    "specs": {
+      "Sync Protocol": "CRDT (Conflict-free Replicated Data Types)",
+      "Local Storage": "IndexedDB with AES-256",
+      "File Export": "PDF, Excel, Markdown",
+      "Collaboration": "Multi-user real-time state sync",
+      "Offline Mode": "Optimistic UI updates with offline-first design"
     }
   },
   "newsboard-one-news": {
@@ -478,6 +1018,24 @@
     "badge": "Media",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/NewsBoard"
+    },
+    "archetype": "productivity",
+    "icon": "\u26a1",
+    "theme_color": "#3b82f6",
+    "bg_gradient": "from-blue-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "CRDT State Synchronization: Conflict-free real-time state synchronization for seamless offline/online transitions.",
+      "Optimistic UI Rendering: Updates interface state instantly and resolves server sync in the background.",
+      "Secure Local Cache: AES-256 encrypted IndexedDB cache ensuring zero data loss during network disruptions.",
+      "Rich Document Pipeline: Universal export to PDF, Excel, Markdown, and structured JSON with a single click."
+    ],
+    "specs": {
+      "Sync Protocol": "CRDT (Conflict-free Replicated Data Types)",
+      "Local Storage": "IndexedDB with AES-256",
+      "File Export": "PDF, Excel, Markdown",
+      "Collaboration": "Multi-user real-time state sync",
+      "Offline Mode": "Optimistic UI updates with offline-first design"
     }
   },
   "imaps": {
@@ -494,6 +1052,24 @@
     "badge": "Navigation",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/iMaps"
+    },
+    "archetype": "spatial_xr",
+    "icon": "\ud83d\udc53",
+    "theme_color": "#8b5cf6",
+    "bg_gradient": "from-violet-950/40 to-slate-950",
+    "sim_type": "mobile",
+    "features": [
+      "Neural PBR Rendering: Real-time edge-accelerated rendering of glTF and USDZ models with realistic material textures.",
+      "6-DoF SLAM Tracking: Highly accurate spatial positioning and room boundary mapping for Vision Pro and Quest 3.",
+      "Interactive Room Redesign: OCR room layout analyzer with drag-and-drop 3D furniture placement by square footage.",
+      "Collaborative Spatial Canvas: Synchronizes spatial coordinate states across multiple remote users in real-time."
+    ],
+    "specs": {
+      "Graphics Engine": "WebXR / Metal / Vulkan",
+      "3D Formats": "USDZ, glTF 2.0 with PBR textures",
+      "Tracking": "6-DoF SLAM spatial tracking",
+      "Device Support": "Apple Vision Pro, Meta Quest 3, Mobile Web",
+      "Processing": "Edge-accelerated neural rendering"
     }
   },
   "eventspark": {
@@ -509,6 +1085,24 @@
     "badge": "Social",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/EventSpark"
+    },
+    "archetype": "productivity",
+    "icon": "\u26a1",
+    "theme_color": "#3b82f6",
+    "bg_gradient": "from-blue-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "CRDT State Synchronization: Conflict-free real-time state synchronization for seamless offline/online transitions.",
+      "Optimistic UI Rendering: Updates interface state instantly and resolves server sync in the background.",
+      "Secure Local Cache: AES-256 encrypted IndexedDB cache ensuring zero data loss during network disruptions.",
+      "Rich Document Pipeline: Universal export to PDF, Excel, Markdown, and structured JSON with a single click."
+    ],
+    "specs": {
+      "Sync Protocol": "CRDT (Conflict-free Replicated Data Types)",
+      "Local Storage": "IndexedDB with AES-256",
+      "File Export": "PDF, Excel, Markdown",
+      "Collaboration": "Multi-user real-time state sync",
+      "Offline Mode": "Optimistic UI updates with offline-first design"
     }
   },
   "foodradar": {
@@ -525,6 +1119,25 @@
     "badge": "Lifestyle",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/FoodRadar"
+    },
+    "archetype": "iot_robotics",
+    "icon": "\ud83d\udce1",
+    "theme_color": "#06b6d4",
+    "bg_gradient": "from-cyan-950/40 to-slate-950",
+    "sim_type": "mobile",
+    "features": [
+      "AeroOS Real-Time Kernel: Custom ultra-low latency RTOS with sub-5ms sensor polling and task scheduling.",
+      "Multi-Layer RF Design: Optimized 8 to 12-layer hybrid PCB stackups with impedance-controlled trace routing.",
+      "Secure Telemetry Pipeline: Lightweight MQTT over TLS and WebSocket connections streaming encrypted telemetry to the cloud.",
+      "Byzantine Fault Tolerance: Triple Modular Redundancy (TMR) voting to guarantee mission-critical flight and hardware safety."
+    ],
+    "specs": {
+      "PCB Stackup": "10-layer Rogers RF hybrid",
+      "Microcontroller": "STM32H7B3 / Rockchip RK3588S",
+      "OS": "FreeRTOS / AeroOS Real-Time Kernel",
+      "Telemetry Sync": "MQTT over TLS / secure WebSockets",
+      "Sensor Loop": "Sub-2ms radar scanning",
+      "Frequency": "24GHz / 77GHz ISM Band"
     }
   },
   "calmaster": {
@@ -541,6 +1154,24 @@
     "badge": "Productivity",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/CalMaster"
+    },
+    "archetype": "productivity",
+    "icon": "\u26a1",
+    "theme_color": "#3b82f6",
+    "bg_gradient": "from-blue-950/40 to-slate-950",
+    "sim_type": "mobile",
+    "features": [
+      "CRDT State Synchronization: Conflict-free real-time state synchronization for seamless offline/online transitions.",
+      "Optimistic UI Rendering: Updates interface state instantly and resolves server sync in the background.",
+      "Secure Local Cache: AES-256 encrypted IndexedDB cache ensuring zero data loss during network disruptions.",
+      "Rich Document Pipeline: Universal export to PDF, Excel, Markdown, and structured JSON with a single click."
+    ],
+    "specs": {
+      "Sync Protocol": "CRDT (Conflict-free Replicated Data Types)",
+      "Local Storage": "IndexedDB with AES-256",
+      "File Export": "PDF, Excel, Markdown",
+      "Collaboration": "Multi-user real-time state sync",
+      "Offline Mode": "Optimistic UI updates with offline-first design"
     }
   },
   "chromaid": {
@@ -557,6 +1188,24 @@
     "badge": "Utility",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/ChromaID"
+    },
+    "archetype": "ai_agent",
+    "icon": "\ud83e\udde0",
+    "theme_color": "#6366f1",
+    "bg_gradient": "from-indigo-950/40 to-slate-950",
+    "sim_type": "mobile",
+    "features": [
+      "Local Offline Execution: Runs completely without internet using highly-optimized quantized model weights.",
+      "Multi-Agent Orchestration: Spawns specialized sub-agents to parallel-process complex cognitive tasks.",
+      "Zero-Data Leakage: All conversational histories, documents, and transcripts stay encrypted on local hardware.",
+      "Smart-Reply Integration: Seamless system-wide hook to provide contextual suggestions across any application."
+    ],
+    "specs": {
+      "Architecture": "Quantized Transformer (GGUF/ONNX)",
+      "Parameters": "1.5B - 7B (On-Device optimized)",
+      "Context Window": "8,192 tokens",
+      "Inference Engine": "Llama.cpp / WebNN",
+      "Privacy Rating": "100% On-Device / Zero Cloud Leakage"
     }
   },
   "apextrade-nexus": {
@@ -573,6 +1222,24 @@
     "badge": "Enterprise",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/apextrade-nexus"
+    },
+    "archetype": "fintech",
+    "icon": "\ud83d\udcc8",
+    "theme_color": "#f59e0b",
+    "bg_gradient": "from-amber-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "Smart Order Routing (SOR): Dynamically scans Nasdaq, NYSE, and BATS venues to route orders at the absolute best bid/ask.",
+      "Chained Ledger Auditing: Immutably chains transaction records locally to prevent tampering and ensure auditability.",
+      "Hedge Fund 13F Aggregation: Automatically parses SEC filings in real-time to track retail and institutional sentiment.",
+      "Zero-Commission Architecture: Leverages direct API endpoints to eliminate broker fees and transaction markups."
+    ],
+    "specs": {
+      "Execution Latency": "< 1.2ms (Smart Order Routing)",
+      "Security": "AES-256 ledger encryption, TLS 1.3",
+      "Data Feeds": "Hedge fund 13F, public financial APIs",
+      "Audit Trails": "Immutably chained transaction logs",
+      "Monetization": "SaaS subscription, commission-free routing"
     }
   },
   "apexmarketwatch": {
@@ -589,6 +1256,24 @@
     "badge": "FinTech",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/ApexMarketWatch"
+    },
+    "archetype": "fintech",
+    "icon": "\ud83d\udcc8",
+    "theme_color": "#f59e0b",
+    "bg_gradient": "from-amber-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "Smart Order Routing (SOR): Dynamically scans Nasdaq, NYSE, and BATS venues to route orders at the absolute best bid/ask.",
+      "Chained Ledger Auditing: Immutably chains transaction records locally to prevent tampering and ensure auditability.",
+      "Hedge Fund 13F Aggregation: Automatically parses SEC filings in real-time to track retail and institutional sentiment.",
+      "Zero-Commission Architecture: Leverages direct API endpoints to eliminate broker fees and transaction markups."
+    ],
+    "specs": {
+      "Execution Latency": "< 1.2ms (Smart Order Routing)",
+      "Security": "AES-256 ledger encryption, TLS 1.3",
+      "Data Feeds": "Hedge fund 13F, public financial APIs",
+      "Audit Trails": "Immutably chained transaction logs",
+      "Monetization": "SaaS subscription, commission-free routing"
     }
   },
   "myfinance": {
@@ -605,6 +1290,24 @@
     "badge": "Consumer",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/MyFinance"
+    },
+    "archetype": "fintech",
+    "icon": "\ud83d\udcc8",
+    "theme_color": "#f59e0b",
+    "bg_gradient": "from-amber-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "Smart Order Routing (SOR): Dynamically scans Nasdaq, NYSE, and BATS venues to route orders at the absolute best bid/ask.",
+      "Chained Ledger Auditing: Immutably chains transaction records locally to prevent tampering and ensure auditability.",
+      "Hedge Fund 13F Aggregation: Automatically parses SEC filings in real-time to track retail and institutional sentiment.",
+      "Zero-Commission Architecture: Leverages direct API endpoints to eliminate broker fees and transaction markups."
+    ],
+    "specs": {
+      "Execution Latency": "< 1.2ms (Smart Order Routing)",
+      "Security": "AES-256 ledger encryption, TLS 1.3",
+      "Data Feeds": "Hedge fund 13F, public financial APIs",
+      "Audit Trails": "Immutably chained transaction logs",
+      "Monetization": "SaaS subscription, commission-free routing"
     }
   },
   "nexustransferpay": {
@@ -620,6 +1323,24 @@
     "badge": "FinTech",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/NexusTransferPay"
+    },
+    "archetype": "fintech",
+    "icon": "\ud83d\udcc8",
+    "theme_color": "#f59e0b",
+    "bg_gradient": "from-amber-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "Smart Order Routing (SOR): Dynamically scans Nasdaq, NYSE, and BATS venues to route orders at the absolute best bid/ask.",
+      "Chained Ledger Auditing: Immutably chains transaction records locally to prevent tampering and ensure auditability.",
+      "Hedge Fund 13F Aggregation: Automatically parses SEC filings in real-time to track retail and institutional sentiment.",
+      "Zero-Commission Architecture: Leverages direct API endpoints to eliminate broker fees and transaction markups."
+    ],
+    "specs": {
+      "Execution Latency": "< 1.2ms (Smart Order Routing)",
+      "Security": "AES-256 ledger encryption, TLS 1.3",
+      "Data Feeds": "Hedge fund 13F, public financial APIs",
+      "Audit Trails": "Immutably chained transaction logs",
+      "Monetization": "SaaS subscription, commission-free routing"
     }
   },
   "milemaster": {
@@ -637,6 +1358,24 @@
     "badge": "Gig Economy",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/MileMaster"
+    },
+    "archetype": "productivity",
+    "icon": "\u26a1",
+    "theme_color": "#3b82f6",
+    "bg_gradient": "from-blue-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "CRDT State Synchronization: Conflict-free real-time state synchronization for seamless offline/online transitions.",
+      "Optimistic UI Rendering: Updates interface state instantly and resolves server sync in the background.",
+      "Secure Local Cache: AES-256 encrypted IndexedDB cache ensuring zero data loss during network disruptions.",
+      "Rich Document Pipeline: Universal export to PDF, Excel, Markdown, and structured JSON with a single click."
+    ],
+    "specs": {
+      "Sync Protocol": "CRDT (Conflict-free Replicated Data Types)",
+      "Local Storage": "IndexedDB with AES-256",
+      "File Export": "PDF, Excel, Markdown",
+      "Collaboration": "Multi-user real-time state sync",
+      "Offline Mode": "Optimistic UI updates with offline-first design"
     }
   },
   "codedeal-icodedeal": {
@@ -653,6 +1392,24 @@
     "badge": "E-Commerce",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/CodeDeal"
+    },
+    "archetype": "fintech",
+    "icon": "\ud83d\udcc8",
+    "theme_color": "#f59e0b",
+    "bg_gradient": "from-amber-950/40 to-slate-950",
+    "sim_type": "mobile",
+    "features": [
+      "Smart Order Routing (SOR): Dynamically scans Nasdaq, NYSE, and BATS venues to route orders at the absolute best bid/ask.",
+      "Chained Ledger Auditing: Immutably chains transaction records locally to prevent tampering and ensure auditability.",
+      "Hedge Fund 13F Aggregation: Automatically parses SEC filings in real-time to track retail and institutional sentiment.",
+      "Zero-Commission Architecture: Leverages direct API endpoints to eliminate broker fees and transaction markups."
+    ],
+    "specs": {
+      "Execution Latency": "< 1.2ms (Smart Order Routing)",
+      "Security": "AES-256 ledger encryption, TLS 1.3",
+      "Data Feeds": "Hedge fund 13F, public financial APIs",
+      "Audit Trails": "Immutably chained transaction logs",
+      "Monetization": "SaaS subscription, commission-free routing"
     }
   },
   "dealzap": {
@@ -668,6 +1425,24 @@
     "badge": "E-Commerce",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/DealZap"
+    },
+    "archetype": "fintech",
+    "icon": "\ud83d\udcc8",
+    "theme_color": "#f59e0b",
+    "bg_gradient": "from-amber-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "Smart Order Routing (SOR): Dynamically scans Nasdaq, NYSE, and BATS venues to route orders at the absolute best bid/ask.",
+      "Chained Ledger Auditing: Immutably chains transaction records locally to prevent tampering and ensure auditability.",
+      "Hedge Fund 13F Aggregation: Automatically parses SEC filings in real-time to track retail and institutional sentiment.",
+      "Zero-Commission Architecture: Leverages direct API endpoints to eliminate broker fees and transaction markups."
+    ],
+    "specs": {
+      "Execution Latency": "< 1.2ms (Smart Order Routing)",
+      "Security": "AES-256 ledger encryption, TLS 1.3",
+      "Data Feeds": "Hedge fund 13F, public financial APIs",
+      "Audit Trails": "Immutably chained transaction logs",
+      "Monetization": "SaaS subscription, commission-free routing"
     }
   },
   "smartbasket": {
@@ -684,6 +1459,24 @@
     "badge": "Shopping",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/SmartBasket"
+    },
+    "archetype": "productivity",
+    "icon": "\u26a1",
+    "theme_color": "#3b82f6",
+    "bg_gradient": "from-blue-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "CRDT State Synchronization: Conflict-free real-time state synchronization for seamless offline/online transitions.",
+      "Optimistic UI Rendering: Updates interface state instantly and resolves server sync in the background.",
+      "Secure Local Cache: AES-256 encrypted IndexedDB cache ensuring zero data loss during network disruptions.",
+      "Rich Document Pipeline: Universal export to PDF, Excel, Markdown, and structured JSON with a single click."
+    ],
+    "specs": {
+      "Sync Protocol": "CRDT (Conflict-free Replicated Data Types)",
+      "Local Storage": "IndexedDB with AES-256",
+      "File Export": "PDF, Excel, Markdown",
+      "Collaboration": "Multi-user real-time state sync",
+      "Offline Mode": "Optimistic UI updates with offline-first design"
     }
   },
   "staydeal": {
@@ -700,6 +1493,24 @@
     "badge": "Travel",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/StayDeal"
+    },
+    "archetype": "fintech",
+    "icon": "\ud83d\udcc8",
+    "theme_color": "#f59e0b",
+    "bg_gradient": "from-amber-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "Smart Order Routing (SOR): Dynamically scans Nasdaq, NYSE, and BATS venues to route orders at the absolute best bid/ask.",
+      "Chained Ledger Auditing: Immutably chains transaction records locally to prevent tampering and ensure auditability.",
+      "Hedge Fund 13F Aggregation: Automatically parses SEC filings in real-time to track retail and institutional sentiment.",
+      "Zero-Commission Architecture: Leverages direct API endpoints to eliminate broker fees and transaction markups."
+    ],
+    "specs": {
+      "Execution Latency": "< 1.2ms (Smart Order Routing)",
+      "Security": "AES-256 ledger encryption, TLS 1.3",
+      "Data Feeds": "Hedge fund 13F, public financial APIs",
+      "Audit Trails": "Immutably chained transaction logs",
+      "Monetization": "SaaS subscription, commission-free routing"
     }
   },
   "skydeal": {
@@ -716,6 +1527,24 @@
     "badge": "Travel",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/SkyDeal"
+    },
+    "archetype": "fintech",
+    "icon": "\ud83d\udcc8",
+    "theme_color": "#f59e0b",
+    "bg_gradient": "from-amber-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "Smart Order Routing (SOR): Dynamically scans Nasdaq, NYSE, and BATS venues to route orders at the absolute best bid/ask.",
+      "Chained Ledger Auditing: Immutably chains transaction records locally to prevent tampering and ensure auditability.",
+      "Hedge Fund 13F Aggregation: Automatically parses SEC filings in real-time to track retail and institutional sentiment.",
+      "Zero-Commission Architecture: Leverages direct API endpoints to eliminate broker fees and transaction markups."
+    ],
+    "specs": {
+      "Execution Latency": "< 1.2ms (Smart Order Routing)",
+      "Security": "AES-256 ledger encryption, TLS 1.3",
+      "Data Feeds": "Hedge fund 13F, public financial APIs",
+      "Audit Trails": "Immutably chained transaction logs",
+      "Monetization": "SaaS subscription, commission-free routing"
     }
   },
   "ridezap": {
@@ -731,6 +1560,24 @@
     "badge": "Transport",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/RideZap"
+    },
+    "archetype": "fintech",
+    "icon": "\ud83d\udcc8",
+    "theme_color": "#f59e0b",
+    "bg_gradient": "from-amber-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "Smart Order Routing (SOR): Dynamically scans Nasdaq, NYSE, and BATS venues to route orders at the absolute best bid/ask.",
+      "Chained Ledger Auditing: Immutably chains transaction records locally to prevent tampering and ensure auditability.",
+      "Hedge Fund 13F Aggregation: Automatically parses SEC filings in real-time to track retail and institutional sentiment.",
+      "Zero-Commission Architecture: Leverages direct API endpoints to eliminate broker fees and transaction markups."
+    ],
+    "specs": {
+      "Execution Latency": "< 1.2ms (Smart Order Routing)",
+      "Security": "AES-256 ledger encryption, TLS 1.3",
+      "Data Feeds": "Hedge fund 13F, public financial APIs",
+      "Audit Trails": "Immutably chained transaction logs",
+      "Monetization": "SaaS subscription, commission-free routing"
     }
   },
   "cardeal": {
@@ -747,6 +1594,24 @@
     "badge": "Transport",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/CarDeal"
+    },
+    "archetype": "fintech",
+    "icon": "\ud83d\udcc8",
+    "theme_color": "#f59e0b",
+    "bg_gradient": "from-amber-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "Smart Order Routing (SOR): Dynamically scans Nasdaq, NYSE, and BATS venues to route orders at the absolute best bid/ask.",
+      "Chained Ledger Auditing: Immutably chains transaction records locally to prevent tampering and ensure auditability.",
+      "Hedge Fund 13F Aggregation: Automatically parses SEC filings in real-time to track retail and institutional sentiment.",
+      "Zero-Commission Architecture: Leverages direct API endpoints to eliminate broker fees and transaction markups."
+    ],
+    "specs": {
+      "Execution Latency": "< 1.2ms (Smart Order Routing)",
+      "Security": "AES-256 ledger encryption, TLS 1.3",
+      "Data Feeds": "Hedge fund 13F, public financial APIs",
+      "Audit Trails": "Immutably chained transaction logs",
+      "Monetization": "SaaS subscription, commission-free routing"
     }
   },
   "fashionradar": {
@@ -763,6 +1628,25 @@
     "badge": "Fashion",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/FashionRadar"
+    },
+    "archetype": "iot_robotics",
+    "icon": "\ud83d\udce1",
+    "theme_color": "#06b6d4",
+    "bg_gradient": "from-cyan-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "AeroOS Real-Time Kernel: Custom ultra-low latency RTOS with sub-5ms sensor polling and task scheduling.",
+      "Multi-Layer RF Design: Optimized 8 to 12-layer hybrid PCB stackups with impedance-controlled trace routing.",
+      "Secure Telemetry Pipeline: Lightweight MQTT over TLS and WebSocket connections streaming encrypted telemetry to the cloud.",
+      "Byzantine Fault Tolerance: Triple Modular Redundancy (TMR) voting to guarantee mission-critical flight and hardware safety."
+    ],
+    "specs": {
+      "PCB Stackup": "10-layer Rogers RF hybrid",
+      "Microcontroller": "STM32H7B3 / Rockchip RK3588S",
+      "OS": "FreeRTOS / AeroOS Real-Time Kernel",
+      "Telemetry Sync": "MQTT over TLS / secure WebSockets",
+      "Sensor Loop": "Sub-2ms radar scanning",
+      "Frequency": "24GHz / 77GHz ISM Band"
     }
   },
   "bagzap": {
@@ -779,6 +1663,24 @@
     "badge": "Fashion",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/BagZap"
+    },
+    "archetype": "fintech",
+    "icon": "\ud83d\udcc8",
+    "theme_color": "#f59e0b",
+    "bg_gradient": "from-amber-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "Smart Order Routing (SOR): Dynamically scans Nasdaq, NYSE, and BATS venues to route orders at the absolute best bid/ask.",
+      "Chained Ledger Auditing: Immutably chains transaction records locally to prevent tampering and ensure auditability.",
+      "Hedge Fund 13F Aggregation: Automatically parses SEC filings in real-time to track retail and institutional sentiment.",
+      "Zero-Commission Architecture: Leverages direct API endpoints to eliminate broker fees and transaction markups."
+    ],
+    "specs": {
+      "Execution Latency": "< 1.2ms (Smart Order Routing)",
+      "Security": "AES-256 ledger encryption, TLS 1.3",
+      "Data Feeds": "Hedge fund 13F, public financial APIs",
+      "Audit Trails": "Immutably chained transaction logs",
+      "Monetization": "SaaS subscription, commission-free routing"
     }
   },
   "solefind": {
@@ -795,6 +1697,24 @@
     "badge": "Fashion",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/SoleFind"
+    },
+    "archetype": "productivity",
+    "icon": "\u26a1",
+    "theme_color": "#3b82f6",
+    "bg_gradient": "from-blue-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "CRDT State Synchronization: Conflict-free real-time state synchronization for seamless offline/online transitions.",
+      "Optimistic UI Rendering: Updates interface state instantly and resolves server sync in the background.",
+      "Secure Local Cache: AES-256 encrypted IndexedDB cache ensuring zero data loss during network disruptions.",
+      "Rich Document Pipeline: Universal export to PDF, Excel, Markdown, and structured JSON with a single click."
+    ],
+    "specs": {
+      "Sync Protocol": "CRDT (Conflict-free Replicated Data Types)",
+      "Local Storage": "IndexedDB with AES-256",
+      "File Export": "PDF, Excel, Markdown",
+      "Collaboration": "Multi-user real-time state sync",
+      "Offline Mode": "Optimistic UI updates with offline-first design"
     }
   },
   "travelzap-travelhub": {
@@ -811,6 +1731,24 @@
     "badge": "Travel",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/TravelHub"
+    },
+    "archetype": "fintech",
+    "icon": "\ud83d\udcc8",
+    "theme_color": "#f59e0b",
+    "bg_gradient": "from-amber-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "Smart Order Routing (SOR): Dynamically scans Nasdaq, NYSE, and BATS venues to route orders at the absolute best bid/ask.",
+      "Chained Ledger Auditing: Immutably chains transaction records locally to prevent tampering and ensure auditability.",
+      "Hedge Fund 13F Aggregation: Automatically parses SEC filings in real-time to track retail and institutional sentiment.",
+      "Zero-Commission Architecture: Leverages direct API endpoints to eliminate broker fees and transaction markups."
+    ],
+    "specs": {
+      "Execution Latency": "< 1.2ms (Smart Order Routing)",
+      "Security": "AES-256 ledger encryption, TLS 1.3",
+      "Data Feeds": "Hedge fund 13F, public financial APIs",
+      "Audit Trails": "Immutably chained transaction logs",
+      "Monetization": "SaaS subscription, commission-free routing"
     }
   },
   "titansecure-enterprise": {
@@ -827,6 +1765,24 @@
     "badge": "Enterprise",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/titansecure-enterprise"
+    },
+    "archetype": "cybersecurity",
+    "icon": "\ud83d\udee1\ufe0f",
+    "theme_color": "#f43f5e",
+    "bg_gradient": "from-rose-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "Zero-Trust Access Control: Integrates with IDgo SSO to enforce continuous multi-factor cryptographic authentication.",
+      "Kernel-Level Threat Shield: Active packet filtering and rate limiting to prevent DDOS and port-scanning exploits.",
+      "Tamper-Proof SIEM Logs: Real-time heuristic anomaly detection stream with cryptographic log sealing.",
+      "Secure Sandbox Isolation: Isolates untrusted application processes to prevent system-wide memory leaks and privilege escalation."
+    ],
+    "specs": {
+      "Protocol": "WireGuard, Zero-Trust Network Access (ZTNA)",
+      "Authentication": "IDgo SSO / Multi-Factor Biometrics",
+      "Threat Shield": "Kernel-level packet filtering, rate limiting",
+      "Audit Trail": "Chained tamper-proof audit logs",
+      "SIEM Engine": "Real-time heuristic anomaly detection"
     }
   },
   "uniconnex": {
@@ -843,6 +1799,24 @@
     "badge": "Infra",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/uniconnex"
+    },
+    "archetype": "productivity",
+    "icon": "\u26a1",
+    "theme_color": "#3b82f6",
+    "bg_gradient": "from-blue-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "CRDT State Synchronization: Conflict-free real-time state synchronization for seamless offline/online transitions.",
+      "Optimistic UI Rendering: Updates interface state instantly and resolves server sync in the background.",
+      "Secure Local Cache: AES-256 encrypted IndexedDB cache ensuring zero data loss during network disruptions.",
+      "Rich Document Pipeline: Universal export to PDF, Excel, Markdown, and structured JSON with a single click."
+    ],
+    "specs": {
+      "Sync Protocol": "CRDT (Conflict-free Replicated Data Types)",
+      "Local Storage": "IndexedDB with AES-256",
+      "File Export": "PDF, Excel, Markdown",
+      "Collaboration": "Multi-user real-time state sync",
+      "Offline Mode": "Optimistic UI updates with offline-first design"
     }
   },
   "wifitrail": {
@@ -859,6 +1833,24 @@
     "badge": "Security Tool",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/WiFiTrail"
+    },
+    "archetype": "mobile_health",
+    "icon": "\ud83c\udfe5",
+    "theme_color": "#10b981",
+    "bg_gradient": "from-emerald-950/40 to-slate-950",
+    "sim_type": "mobile",
+    "features": [
+      "Continuous Telemetry Sync: Connects with WHOOP, Oura, Fitbit, and Apple HealthKit for real-time vitals tracking.",
+      "Local-First Encryption: Patient PHI and clinical metrics are encrypted locally with biometric access locks.",
+      "Automated Clinical Audit Logs: Immutable log records for HIPAA compliance with automated 6-year retention pruning.",
+      "AI-Driven Health Coaching: Personalized health, recovery, and sleep recommendations computed entirely on-device."
+    ],
+    "specs": {
+      "Compliance": "HIPAA compliant, PHI-encrypted",
+      "Data Sync": "Apple HealthKit / Google Health Connect",
+      "Local Storage": "Encrypted SQLite (SQLCipher)",
+      "Offline Mode": "Full Offline caching with background sync",
+      "Audit Logging": "Automated clinical audit logs (6-year retention)"
     }
   },
   "core-identity-service-idgo": {
@@ -875,6 +1867,24 @@
     "badge": "Platform",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/core-identity-service"
+    },
+    "archetype": "cybersecurity",
+    "icon": "\ud83d\udee1\ufe0f",
+    "theme_color": "#f43f5e",
+    "bg_gradient": "from-rose-950/40 to-slate-950",
+    "sim_type": "mobile",
+    "features": [
+      "Zero-Trust Access Control: Integrates with IDgo SSO to enforce continuous multi-factor cryptographic authentication.",
+      "Kernel-Level Threat Shield: Active packet filtering and rate limiting to prevent DDOS and port-scanning exploits.",
+      "Tamper-Proof SIEM Logs: Real-time heuristic anomaly detection stream with cryptographic log sealing.",
+      "Secure Sandbox Isolation: Isolates untrusted application processes to prevent system-wide memory leaks and privilege escalation."
+    ],
+    "specs": {
+      "Protocol": "WireGuard, Zero-Trust Network Access (ZTNA)",
+      "Authentication": "IDgo SSO / Multi-Factor Biometrics",
+      "Threat Shield": "Kernel-level packet filtering, rate limiting",
+      "Audit Trail": "Chained tamper-proof audit logs",
+      "SIEM Engine": "Real-time heuristic anomaly detection"
     }
   },
   "starcloud": {
@@ -891,6 +1901,24 @@
     "badge": "Cloud",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/starcloud"
+    },
+    "archetype": "productivity",
+    "icon": "\u26a1",
+    "theme_color": "#3b82f6",
+    "bg_gradient": "from-blue-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "CRDT State Synchronization: Conflict-free real-time state synchronization for seamless offline/online transitions.",
+      "Optimistic UI Rendering: Updates interface state instantly and resolves server sync in the background.",
+      "Secure Local Cache: AES-256 encrypted IndexedDB cache ensuring zero data loss during network disruptions.",
+      "Rich Document Pipeline: Universal export to PDF, Excel, Markdown, and structured JSON with a single click."
+    ],
+    "specs": {
+      "Sync Protocol": "CRDT (Conflict-free Replicated Data Types)",
+      "Local Storage": "IndexedDB with AES-256",
+      "File Export": "PDF, Excel, Markdown",
+      "Collaboration": "Multi-user real-time state sync",
+      "Offline Mode": "Optimistic UI updates with offline-first design"
     }
   },
   "agl-backend": {
@@ -906,6 +1934,24 @@
     "badge": "Core Infra",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/AmericanGroupLLC-Backend"
+    },
+    "archetype": "productivity",
+    "icon": "\u26a1",
+    "theme_color": "#3b82f6",
+    "bg_gradient": "from-blue-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "CRDT State Synchronization: Conflict-free real-time state synchronization for seamless offline/online transitions.",
+      "Optimistic UI Rendering: Updates interface state instantly and resolves server sync in the background.",
+      "Secure Local Cache: AES-256 encrypted IndexedDB cache ensuring zero data loss during network disruptions.",
+      "Rich Document Pipeline: Universal export to PDF, Excel, Markdown, and structured JSON with a single click."
+    ],
+    "specs": {
+      "Sync Protocol": "CRDT (Conflict-free Replicated Data Types)",
+      "Local Storage": "IndexedDB with AES-256",
+      "File Export": "PDF, Excel, Markdown",
+      "Collaboration": "Multi-user real-time state sync",
+      "Offline Mode": "Optimistic UI updates with offline-first design"
     }
   },
   "world-labs": {
@@ -922,6 +1968,24 @@
     "badge": "R&D",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/world-labs"
+    },
+    "archetype": "spatial_xr",
+    "icon": "\ud83d\udc53",
+    "theme_color": "#8b5cf6",
+    "bg_gradient": "from-violet-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "Neural PBR Rendering: Real-time edge-accelerated rendering of glTF and USDZ models with realistic material textures.",
+      "6-DoF SLAM Tracking: Highly accurate spatial positioning and room boundary mapping for Vision Pro and Quest 3.",
+      "Interactive Room Redesign: OCR room layout analyzer with drag-and-drop 3D furniture placement by square footage.",
+      "Collaborative Spatial Canvas: Synchronizes spatial coordinate states across multiple remote users in real-time."
+    ],
+    "specs": {
+      "Graphics Engine": "WebXR / Metal / Vulkan",
+      "3D Formats": "USDZ, glTF 2.0 with PBR textures",
+      "Tracking": "6-DoF SLAM spatial tracking",
+      "Device Support": "Apple Vision Pro, Meta Quest 3, Mobile Web",
+      "Processing": "Edge-accelerated neural rendering"
     }
   },
   "xr-creator-suite": {
@@ -938,6 +2002,24 @@
     "badge": "XR",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/xr-creator-suite"
+    },
+    "archetype": "spatial_xr",
+    "icon": "\ud83d\udc53",
+    "theme_color": "#8b5cf6",
+    "bg_gradient": "from-violet-950/40 to-slate-950",
+    "sim_type": "mobile",
+    "features": [
+      "Neural PBR Rendering: Real-time edge-accelerated rendering of glTF and USDZ models with realistic material textures.",
+      "6-DoF SLAM Tracking: Highly accurate spatial positioning and room boundary mapping for Vision Pro and Quest 3.",
+      "Interactive Room Redesign: OCR room layout analyzer with drag-and-drop 3D furniture placement by square footage.",
+      "Collaborative Spatial Canvas: Synchronizes spatial coordinate states across multiple remote users in real-time."
+    ],
+    "specs": {
+      "Graphics Engine": "WebXR / Metal / Vulkan",
+      "3D Formats": "USDZ, glTF 2.0 with PBR textures",
+      "Tracking": "6-DoF SLAM spatial tracking",
+      "Device Support": "Apple Vision Pro, Meta Quest 3, Mobile Web",
+      "Processing": "Edge-accelerated neural rendering"
     }
   },
   "archiflow-enterprise": {
@@ -954,6 +2036,24 @@
     "badge": "Enterprise",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/archiflow-enterprise"
+    },
+    "archetype": "productivity",
+    "icon": "\u26a1",
+    "theme_color": "#3b82f6",
+    "bg_gradient": "from-blue-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "CRDT State Synchronization: Conflict-free real-time state synchronization for seamless offline/online transitions.",
+      "Optimistic UI Rendering: Updates interface state instantly and resolves server sync in the background.",
+      "Secure Local Cache: AES-256 encrypted IndexedDB cache ensuring zero data loss during network disruptions.",
+      "Rich Document Pipeline: Universal export to PDF, Excel, Markdown, and structured JSON with a single click."
+    ],
+    "specs": {
+      "Sync Protocol": "CRDT (Conflict-free Replicated Data Types)",
+      "Local Storage": "IndexedDB with AES-256",
+      "File Export": "PDF, Excel, Markdown",
+      "Collaboration": "Multi-user real-time state sync",
+      "Offline Mode": "Optimistic UI updates with offline-first design"
     }
   },
   "learnsphere-enterprise": {
@@ -970,6 +2070,24 @@
     "badge": "EdTech",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/learnsphere-enterprise"
+    },
+    "archetype": "ai_agent",
+    "icon": "\ud83e\udde0",
+    "theme_color": "#6366f1",
+    "bg_gradient": "from-indigo-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "Local Offline Execution: Runs completely without internet using highly-optimized quantized model weights.",
+      "Multi-Agent Orchestration: Spawns specialized sub-agents to parallel-process complex cognitive tasks.",
+      "Zero-Data Leakage: All conversational histories, documents, and transcripts stay encrypted on local hardware.",
+      "Smart-Reply Integration: Seamless system-wide hook to provide contextual suggestions across any application."
+    ],
+    "specs": {
+      "Architecture": "Quantized Transformer (GGUF/ONNX)",
+      "Parameters": "1.5B - 7B (On-Device optimized)",
+      "Context Window": "8,192 tokens",
+      "Inference Engine": "Llama.cpp / WebNN",
+      "Privacy Rating": "100% On-Device / Zero Cloud Leakage"
     }
   },
   "medmaster-elite": {
@@ -986,6 +2104,24 @@
     "badge": "HealthTech",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/medmaster-elite"
+    },
+    "archetype": "productivity",
+    "icon": "\u26a1",
+    "theme_color": "#3b82f6",
+    "bg_gradient": "from-blue-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "CRDT State Synchronization: Conflict-free real-time state synchronization for seamless offline/online transitions.",
+      "Optimistic UI Rendering: Updates interface state instantly and resolves server sync in the background.",
+      "Secure Local Cache: AES-256 encrypted IndexedDB cache ensuring zero data loss during network disruptions.",
+      "Rich Document Pipeline: Universal export to PDF, Excel, Markdown, and structured JSON with a single click."
+    ],
+    "specs": {
+      "Sync Protocol": "CRDT (Conflict-free Replicated Data Types)",
+      "Local Storage": "IndexedDB with AES-256",
+      "File Export": "PDF, Excel, Markdown",
+      "Collaboration": "Multi-user real-time state sync",
+      "Offline Mode": "Optimistic UI updates with offline-first design"
     }
   },
   "golfvision-elite": {
@@ -1002,6 +2138,24 @@
     "badge": "Sports",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/golfvision-elite"
+    },
+    "archetype": "spatial_xr",
+    "icon": "\ud83d\udc53",
+    "theme_color": "#8b5cf6",
+    "bg_gradient": "from-violet-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "Neural PBR Rendering: Real-time edge-accelerated rendering of glTF and USDZ models with realistic material textures.",
+      "6-DoF SLAM Tracking: Highly accurate spatial positioning and room boundary mapping for Vision Pro and Quest 3.",
+      "Interactive Room Redesign: OCR room layout analyzer with drag-and-drop 3D furniture placement by square footage.",
+      "Collaborative Spatial Canvas: Synchronizes spatial coordinate states across multiple remote users in real-time."
+    ],
+    "specs": {
+      "Graphics Engine": "WebXR / Metal / Vulkan",
+      "3D Formats": "USDZ, glTF 2.0 with PBR textures",
+      "Tracking": "6-DoF SLAM spatial tracking",
+      "Device Support": "Apple Vision Pro, Meta Quest 3, Mobile Web",
+      "Processing": "Edge-accelerated neural rendering"
     }
   },
   "homewise": {
@@ -1017,6 +2171,24 @@
     "badge": "PropTech",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/HomeWise"
+    },
+    "archetype": "fintech",
+    "icon": "\ud83d\udcc8",
+    "theme_color": "#f59e0b",
+    "bg_gradient": "from-amber-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "Smart Order Routing (SOR): Dynamically scans Nasdaq, NYSE, and BATS venues to route orders at the absolute best bid/ask.",
+      "Chained Ledger Auditing: Immutably chains transaction records locally to prevent tampering and ensure auditability.",
+      "Hedge Fund 13F Aggregation: Automatically parses SEC filings in real-time to track retail and institutional sentiment.",
+      "Zero-Commission Architecture: Leverages direct API endpoints to eliminate broker fees and transaction markups."
+    ],
+    "specs": {
+      "Execution Latency": "< 1.2ms (Smart Order Routing)",
+      "Security": "AES-256 ledger encryption, TLS 1.3",
+      "Data Feeds": "Hedge fund 13F, public financial APIs",
+      "Audit Trails": "Immutably chained transaction logs",
+      "Monetization": "SaaS subscription, commission-free routing"
     }
   },
   "royaledge-gaming-os": {
@@ -1033,6 +2205,24 @@
     "badge": "Gaming",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/royaledge-gaming-os"
+    },
+    "archetype": "productivity",
+    "icon": "\u26a1",
+    "theme_color": "#3b82f6",
+    "bg_gradient": "from-blue-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "CRDT State Synchronization: Conflict-free real-time state synchronization for seamless offline/online transitions.",
+      "Optimistic UI Rendering: Updates interface state instantly and resolves server sync in the background.",
+      "Secure Local Cache: AES-256 encrypted IndexedDB cache ensuring zero data loss during network disruptions.",
+      "Rich Document Pipeline: Universal export to PDF, Excel, Markdown, and structured JSON with a single click."
+    ],
+    "specs": {
+      "Sync Protocol": "CRDT (Conflict-free Replicated Data Types)",
+      "Local Storage": "IndexedDB with AES-256",
+      "File Export": "PDF, Excel, Markdown",
+      "Collaboration": "Multi-user real-time state sync",
+      "Offline Mode": "Optimistic UI updates with offline-first design"
     }
   },
   "travelhub": {
@@ -1049,6 +2239,24 @@
     "badge": "Travel",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/TravelHub"
+    },
+    "archetype": "productivity",
+    "icon": "\u26a1",
+    "theme_color": "#3b82f6",
+    "bg_gradient": "from-blue-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "CRDT State Synchronization: Conflict-free real-time state synchronization for seamless offline/online transitions.",
+      "Optimistic UI Rendering: Updates interface state instantly and resolves server sync in the background.",
+      "Secure Local Cache: AES-256 encrypted IndexedDB cache ensuring zero data loss during network disruptions.",
+      "Rich Document Pipeline: Universal export to PDF, Excel, Markdown, and structured JSON with a single click."
+    ],
+    "specs": {
+      "Sync Protocol": "CRDT (Conflict-free Replicated Data Types)",
+      "Local Storage": "IndexedDB with AES-256",
+      "File Export": "PDF, Excel, Markdown",
+      "Collaboration": "Multi-user real-time state sync",
+      "Offline Mode": "Optimistic UI updates with offline-first design"
     }
   },
   "aeroswift-platform": {
@@ -1066,6 +2274,24 @@
     "links": {
       "github": "https://github.com/AmericanGroupLLC/AeroSwift",
       "demo": "aeroswift-dashboard.html"
+    },
+    "archetype": "iot_robotics",
+    "icon": "\ud83d\udce1",
+    "theme_color": "#06b6d4",
+    "bg_gradient": "from-cyan-950/40 to-slate-950",
+    "sim_type": "mobile",
+    "features": [
+      "AeroOS Real-Time Kernel: Custom ultra-low latency RTOS with sub-5ms sensor polling and task scheduling.",
+      "Multi-Layer RF Design: Optimized 8 to 12-layer hybrid PCB stackups with impedance-controlled trace routing.",
+      "Secure Telemetry Pipeline: Lightweight MQTT over TLS and WebSocket connections streaming encrypted telemetry to the cloud.",
+      "Byzantine Fault Tolerance: Triple Modular Redundancy (TMR) voting to guarantee mission-critical flight and hardware safety."
+    ],
+    "specs": {
+      "PCB Stackup": "8 to 12-layer high-frequency RF",
+      "Microcontroller": "STM32H7B3 / Rockchip RK3588S",
+      "OS": "FreeRTOS / AeroOS Real-Time Kernel",
+      "Telemetry Sync": "MQTT over TLS / secure WebSockets",
+      "Sensor Loop": "Real-time telemetry with sub-5ms latency"
     }
   },
   "eradar360-aegis-one": {
@@ -1082,6 +2308,25 @@
     "badge": "Hardware",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/eRadar360_CAD"
+    },
+    "archetype": "iot_robotics",
+    "icon": "\ud83d\udce1",
+    "theme_color": "#06b6d4",
+    "bg_gradient": "from-cyan-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "AeroOS Real-Time Kernel: Custom ultra-low latency RTOS with sub-5ms sensor polling and task scheduling.",
+      "Multi-Layer RF Design: Optimized 8 to 12-layer hybrid PCB stackups with impedance-controlled trace routing.",
+      "Secure Telemetry Pipeline: Lightweight MQTT over TLS and WebSocket connections streaming encrypted telemetry to the cloud.",
+      "Byzantine Fault Tolerance: Triple Modular Redundancy (TMR) voting to guarantee mission-critical flight and hardware safety."
+    ],
+    "specs": {
+      "PCB Stackup": "10-layer Rogers RF hybrid",
+      "Microcontroller": "STM32H7B3 / Rockchip RK3588S",
+      "OS": "FreeRTOS / AeroOS Real-Time Kernel",
+      "Telemetry Sync": "MQTT over TLS / secure WebSockets",
+      "Sensor Loop": "Sub-2ms radar scanning",
+      "Frequency": "24GHz / 77GHz ISM Band"
     }
   },
   "vendingmachine": {
@@ -1098,6 +2343,26 @@
     "badge": "IoT",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/VendingMachine"
+    },
+    "archetype": "iot_robotics",
+    "icon": "\ud83d\udce1",
+    "theme_color": "#06b6d4",
+    "bg_gradient": "from-cyan-950/40 to-slate-950",
+    "sim_type": "web",
+    "features": [
+      "AeroOS Real-Time Kernel: Custom ultra-low latency RTOS with sub-5ms sensor polling and task scheduling.",
+      "Multi-Layer RF Design: Optimized 8 to 12-layer hybrid PCB stackups with impedance-controlled trace routing.",
+      "Secure Telemetry Pipeline: Lightweight MQTT over TLS and WebSocket connections streaming encrypted telemetry to the cloud.",
+      "Byzantine Fault Tolerance: Triple Modular Redundancy (TMR) voting to guarantee mission-critical flight and hardware safety."
+    ],
+    "specs": {
+      "PCB Stackup": "8 to 12-layer high-frequency RF",
+      "Microcontroller": "STM32H7B3 / Rockchip RK3588S",
+      "OS": "Embedded Linux / Yocto",
+      "Telemetry Sync": "MQTT over TLS / secure WebSockets",
+      "Sensor Loop": "Real-time telemetry with sub-5ms latency",
+      "MDB Protocol": "Multi-Drop Bus (MDB) 4.3 compliant",
+      "Hardware": "Raspberry Pi Compute Module 4"
     }
   },
   "orbitalbee-runtime": {
@@ -1114,6 +2379,26 @@
     "badge": "Robotics",
     "links": {
       "github": "https://github.com/AmericanGroupLLC/orbitalbee-runtime"
+    },
+    "archetype": "iot_robotics",
+    "icon": "\ud83d\udce1",
+    "theme_color": "#06b6d4",
+    "bg_gradient": "from-cyan-950/40 to-slate-950",
+    "sim_type": "mobile",
+    "features": [
+      "AeroOS Real-Time Kernel: Custom ultra-low latency RTOS with sub-5ms sensor polling and task scheduling.",
+      "Multi-Layer RF Design: Optimized 8 to 12-layer hybrid PCB stackups with impedance-controlled trace routing.",
+      "Secure Telemetry Pipeline: Lightweight MQTT over TLS and WebSocket connections streaming encrypted telemetry to the cloud.",
+      "Byzantine Fault Tolerance: Triple Modular Redundancy (TMR) voting to guarantee mission-critical flight and hardware safety."
+    ],
+    "specs": {
+      "PCB Stackup": "8 to 12-layer high-frequency RF",
+      "Microcontroller": "STM32H7B3 / Rockchip RK3588S",
+      "OS": "AeroOS RTOS + ROS2",
+      "Telemetry Sync": "MQTT over TLS / secure WebSockets",
+      "Sensor Loop": "Real-time telemetry with sub-5ms latency",
+      "Simulation Engine": "Gazebo / ROS2 Humble",
+      "Navigation": "Visual Inertial Odometry (VIO)"
     }
   }
 }
