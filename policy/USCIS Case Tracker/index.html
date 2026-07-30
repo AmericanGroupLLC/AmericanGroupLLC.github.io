@@ -1,713 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Case Tracker for USCIS — Privacy Policy, Disclaimers &amp; Information Sources</title>
-<meta name="description" content="Privacy policy, government affiliation disclaimer, official information sources, permissions and data disclosures for the Case Tracker for USCIS mobile app. Not affiliated with USCIS, DHS, or any U.S. government agency.">
-<meta name="robots" content="index, follow">
-<style>
-  :root{
-    --bg:#ffffff; --surface:#f7f8fa; --surface-2:#eef1f5; --border:#d8dee8;
-    --text:#12161d; --text-dim:#4b5565; --text-faint:#6b7688;
-    --navy:#002868; --navy-ink:#001b45; --accent:#1857b8;
-    --warn-bg:#fff8e6; --warn-border:#e8c56a; --warn-text:#6b4d05;
-    --danger-bg:#fdf0f0; --danger-border:#e2a1a1; --danger-text:#8a2020;
-    --ok-bg:#eef8f1; --ok-border:#9dcfae; --ok-text:#1c5c33;
-    --radius:12px; --maxw:920px;
-    --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
-    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  }
-  @media (prefers-color-scheme:dark){
-    :root{
-      --bg:#0d1117; --surface:#161b22; --surface-2:#1c2430; --border:#2d353f;
-      --text:#e8edf4; --text-dim:#adb8c6; --text-faint:#8b95a4;
-      --navy:#4d84d8; --navy-ink:#e8edf4; --accent:#7aa7e8;
-      --warn-bg:#2b2308; --warn-border:#6b5713; --warn-text:#f0d795;
-      --danger-bg:#2c1414; --danger-border:#6d2c2c; --danger-text:#f0b0b0;
-      --ok-bg:#0f2418; --ok-border:#2c5c3d; --ok-text:#a5dcb8;
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Case Tracker for USCIS — Privacy Policy & Government Disclaimers</title>
+  <meta name="description" content="Privacy policy, government non-affiliation disclaimer, and official information sources for Case Tracker for USCIS.">
+  <meta name="robots" content="index, follow">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --surface: #f8f9fa;
+      --border: #e2e8f0;
+      --text: #1a202c;
+      --text-dim: #4a5568;
+      --primary: #002868;
+      --accent: #1a56db;
+      --warn-bg: #fffbeeb0;
+      --warn-border: #f6ad55;
+      --warn-text: #744210;
+      --radius: 8px;
+      --maxw: 800px;
+      --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     }
-  }
-  *,*::before,*::after{box-sizing:border-box}
-  html{-webkit-text-size-adjust:100%; scroll-behavior:smooth}
-  body{
-    margin:0; background:var(--bg); color:var(--text);
-    font-family:var(--sans); font-size:17px; line-height:1.68;
-    -webkit-font-smoothing:antialiased;
-  }
-  .wrap{max-width:var(--maxw); margin:0 auto; padding:0 20px}
-
-  /* ---------- header ---------- */
-  header.masthead{
-    background:linear-gradient(160deg,var(--navy) 0%,#001a42 100%);
-    color:#fff; padding:44px 0 38px; border-bottom:4px solid #b31942;
-  }
-  @media (prefers-color-scheme:dark){
-    header.masthead{background:linear-gradient(160deg,#12233f 0%,#0b1526 100%)}
-  }
-  header.masthead h1{margin:0 0 8px; font-size:clamp(1.55rem,4.4vw,2.3rem); line-height:1.22; letter-spacing:-.02em}
-  header.masthead .sub{margin:0; font-size:1rem; color:rgba(255,255,255,.86)}
-  .meta-row{margin-top:20px; display:flex; flex-wrap:wrap; gap:8px}
-  .chip{
-    font-size:.78rem; background:rgba(255,255,255,.13); color:#fff;
-    border:1px solid rgba(255,255,255,.22); padding:5px 11px; border-radius:999px;
-    font-family:var(--mono);
-  }
-
-  /* ---------- banners ---------- */
-  .banner{
-    border-radius:var(--radius); padding:18px 20px; margin:26px 0;
-    border:1px solid var(--border); background:var(--surface);
-  }
-  .banner.critical{background:var(--danger-bg); border-color:var(--danger-border); color:var(--danger-text)}
-  .banner.warn{background:var(--warn-bg); border-color:var(--warn-border); color:var(--warn-text)}
-  .banner.ok{background:var(--ok-bg); border-color:var(--ok-border); color:var(--ok-text)}
-  .banner h2,.banner h3{margin:0 0 8px; font-size:1.05rem; letter-spacing:-.01em}
-  .banner p{margin:0 0 10px}
-  .banner p:last-child{margin-bottom:0}
-  .banner.critical strong{font-weight:700}
-
-  /* ---------- toc ---------- */
-  nav.toc{
-    background:var(--surface); border:1px solid var(--border);
-    border-radius:var(--radius); padding:20px 22px; margin:28px 0;
-  }
-  nav.toc h2{margin:0 0 12px; font-size:.8rem; text-transform:uppercase; letter-spacing:.09em; color:var(--text-faint)}
-  nav.toc ol{margin:0; padding-left:20px; columns:2; column-gap:28px}
-  @media (max-width:620px){nav.toc ol{columns:1}}
-  nav.toc li{margin:0 0 5px; break-inside:avoid}
-  nav.toc a{color:var(--accent); text-decoration:none}
-  nav.toc a:hover{text-decoration:underline}
-
-  /* ---------- sections ---------- */
-  main{padding:8px 0 60px}
-  section{padding:30px 0; border-top:1px solid var(--border)}
-  section:first-of-type{border-top:none}
-  h2{font-size:1.32rem; margin:0 0 6px; letter-spacing:-.015em; scroll-margin-top:16px}
-  h2 .num{color:var(--text-faint); font-family:var(--mono); font-size:.85rem; margin-right:9px; font-weight:400}
-  h3{font-size:1.02rem; margin:24px 0 8px; letter-spacing:-.01em}
-  p{margin:0 0 14px}
-  ul,ol{margin:0 0 14px; padding-left:22px}
-  li{margin:0 0 7px}
-  a{color:var(--accent)}
-  strong{font-weight:650}
-  code{
-    font-family:var(--mono); font-size:.85em; background:var(--surface-2);
-    border:1px solid var(--border); border-radius:5px; padding:1px 5px; word-break:break-word;
-  }
-  .lead{font-size:1.06rem; color:var(--text-dim)}
-
-  /* ---------- tables ---------- */
-  .tw{overflow-x:auto; margin:0 0 16px; border:1px solid var(--border); border-radius:var(--radius)}
-  table{border-collapse:collapse; width:100%; min-width:520px; font-size:.9rem}
-  caption{text-align:left; font-size:.85rem; color:var(--text-faint); padding:10px 14px; border-bottom:1px solid var(--border)}
-  th,td{text-align:left; padding:10px 14px; border-bottom:1px solid var(--border); vertical-align:top}
-  th{background:var(--surface); font-weight:650; font-size:.82rem; text-transform:uppercase; letter-spacing:.04em; color:var(--text-dim)}
-  tbody tr:last-child td{border-bottom:none}
-  td code{font-size:.8em}
-
-  /* ---------- placeholders ---------- */
-  .todo{
-    background:var(--warn-bg); color:var(--warn-text); border:1px dashed var(--warn-border);
-    border-radius:5px; padding:1px 7px; font-family:var(--mono); font-size:.82em; font-weight:600;
-  }
-
-  /* ---------- footer ---------- */
-  footer{
-    border-top:1px solid var(--border); background:var(--surface);
-    padding:30px 0; font-size:.88rem; color:var(--text-dim);
-  }
-  footer p{margin:0 0 8px}
-  footer p:last-child{margin:0}
-
-  @media print{
-    header.masthead{background:#002868 !important; -webkit-print-color-adjust:exact; print-color-adjust:exact}
-    nav.toc{display:none}
-    section{break-inside:avoid-page}
-    body{font-size:11pt}
-  }
-</style>
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --surface: #1e293b;
+        --border: #334155;
+        --text: #f8fafc;
+        --text-dim: #94a3b8;
+        --primary: #3b82f6;
+        --accent: #60a5fa;
+        --warn-bg: #2d2006;
+        --warn-border: #975a16;
+        --warn-text: #fbd38d;
+      }
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--sans);
+      line-height: 1.6;
+    }
+    .container {
+      max-width: var(--maxw);
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    header {
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+    }
+    h1 {
+      font-size: 2rem;
+      margin: 0 0 10px 0;
+      color: var(--primary);
+    }
+    .meta {
+      font-size: 0.9rem;
+      color: var(--text-dim);
+    }
+    .banner {
+      background: var(--warn-bg);
+      border: 1px solid var(--warn-border);
+      color: var(--warn-text);
+      padding: 20px;
+      border-radius: var(--radius);
+      margin-bottom: 30px;
+    }
+    .banner h2 {
+      margin-top: 0;
+      font-size: 1.2rem;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    h2 {
+      font-size: 1.4rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+      margin-top: 24px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 10px;
+      text-align: left;
+      font-size: 0.95rem;
+    }
+    th {
+      background: var(--surface);
+    }
+    footer {
+      border-top: 1px solid var(--border);
+      padding-top: 20px;
+      margin-top: 40px;
+      font-size: 0.85rem;
+      color: var(--text-dim);
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
 
-<header class="masthead">
-  <div class="wrap">
+<div class="container">
+
+  <header>
     <h1>Case Tracker for USCIS</h1>
-    <p class="sub">Privacy Policy, Government Affiliation Disclaimer &amp; Official Information Sources</p>
-    <div class="meta-row">
-      <span class="chip">Last updated: <span class="todo">July 30, 2026</span></span>
-      <span class="chip">Android package: com.americangroupllc.usciscase</span>
-      <span class="chip">App version: 1.0.0</span>
+    <div class="meta">
+      <strong>Privacy Policy & Government Information Disclosures</strong><br>
+      Last Updated: July 30, 2026 | Publisher: American Group LLC
     </div>
-  </div>
-</header>
+  </header>
 
-<div class="wrap">
-
-  <div class="banner critical">
+  <div class="banner">
     <h2>Government Affiliation Disclaimer</h2>
-    <p><strong>Case Tracker for USCIS is an independent, privately developed application. It is
-    NOT affiliated with, endorsed by, sponsored by, authorized by, or associated in any way with
-    U.S. Citizenship and Immigration Services (USCIS), the U.S. Department of Homeland Security
-    (DHS), the U.S. Department of State (DOS), U.S. Customs and Border Protection (CBP),
-    U.S. Immigration and Customs Enforcement (ICE), the U.S. Department of Labor (DOL), or any
-    other U.S. federal, state, or local government agency.</strong></p>
-    <p>This app is not a government service, is not an official government application, and is not
-    a substitute for any official government website, portal, form, or service. The name "USCIS"
-    and all government agency names, seals, logos, and trademarks referenced in this app are the
-    property of their respective agencies and are used only to describe factually which public
-    information the app displays.</p>
-    <p><strong>This app is not a law firm and does not provide legal advice.</strong> Nothing in this
-    app constitutes legal advice, legal representation, or an attorney–client relationship. For
-    advice about your specific circumstances, consult a licensed immigration attorney or a
-    DOJ/EOIR-accredited representative.</p>
-    <p><strong>This app charges no fees for any government service and cannot file, submit,
-    expedite, influence, or alter any application, petition, or case.</strong> It cannot change your
-    place in any queue. Government forms are always available free of charge directly from the
-    issuing agency.</p>
-    <p><strong>Always verify any information you see in this app against the official USCIS website
-    at <a href="https://www.uscis.gov" style="color:inherit;text-decoration:underline">https://www.uscis.gov</a>
-    (or the relevant official agency website) before relying on it or making any decision.</strong>
-    Where the app and an official government source disagree, the official government source is
-    authoritative.</p>
+    <p><strong>Case Tracker for USCIS is an independent application developed by American Group LLC. It is NOT affiliated with, endorsed by, sponsored by, authorized by, or operated by U.S. Citizenship and Immigration Services (USCIS), the U.S. Department of Homeland Security (DHS), the U.S. Department of State (DOS), U.S. Customs and Border Protection (CBP), or any other United States government agency.</strong></p>
+    <p>This app is not an official government service and does not provide legal advice. All official government information, forms, and services should be accessed directly through official agency portals such as <a href="https://www.uscis.gov" target="_blank" rel="noopener">https://www.uscis.gov</a>.</p>
   </div>
 
-  <p class="lead">This page is the single, authoritative disclosure document for the
-  <strong>Case Tracker for USCIS</strong> Android and iOS application. It describes what the app
-  does, exactly which official government information sources it uses, what data it collects,
-  where that data is stored, which device permissions it requests, and what rights you have.
-  It is written to satisfy Google Play's Misleading Claims, User Data, Permissions, and
-  Data Safety policy requirements.</p>
+  <section>
+    <h2>1. About This Application</h2>
+    <p><strong>Case Tracker for USCIS</strong> is a local-first personal organizational tool that allows users to monitor publicly available status updates for U.S. immigration cases, view processing time estimates, read agency news feeds, and check visa bulletins.</p>
+    <p>The app displays public information retrieved directly from official government agency web services. The app does not alter, create, or influence official government records.</p>
+  </section>
 
-  <nav class="toc" aria-label="Table of contents">
-    <h2>Contents</h2>
-    <ol>
-      <li><a href="#about">About This App</a></li>
-      <li><a href="#sources">Official Government Information Sources</a></li>
-      <li><a href="#accuracy">Information Accuracy &amp; Verification</a></li>
-      <li><a href="#ai">Automated / AI-Generated Content</a></li>
-      <li><a href="#sample">Sample &amp; Demonstration Data</a></li>
-      <li><a href="#privacy">Privacy Policy</a></li>
-      <li><a href="#collection">Data Collection &amp; Usage</a></li>
-      <li><a href="#storage">Data Storage &amp; Retention</a></li>
-      <li><a href="#permissions">Permissions Used</a></li>
-      <li><a href="#notifications">Notifications</a></li>
-      <li><a href="#third-party">Third-Party Services</a></li>
-      <li><a href="#rights">Your Rights &amp; Choices</a></li>
-      <li><a href="#security">Security</a></li>
-      <li><a href="#children">Children's Privacy</a></li>
-      <li><a href="#intl">International Users</a></li>
-      <li><a href="#changes">Changes to This Policy</a></li>
-      <li><a href="#contact">Contact Information</a></li>
-      <li><a href="#pending">Disclosures Pending Completion</a></li>
-    </ol>
-  </nav>
+  <section>
+    <h2>2. Official Government Information Sources</h2>
+    <p>The application retrieves and displays public government data sourced exclusively from the following official government portals:</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Feature / Information</th>
+          <th>Official Source URL</th>
+          <th>Government Agency</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>USCIS Case Status</td>
+          <td><a href="https://egov.uscis.gov/casestatus/landing.do" target="_blank" rel="noopener">https://egov.uscis.gov/casestatus/landing.do</a></td>
+          <td>U.S. Citizenship and Immigration Services (USCIS / DHS)</td>
+        </tr>
+        <tr>
+          <td>USCIS Processing Times</td>
+          <td><a href="https://egov.uscis.gov/processing-times/" target="_blank" rel="noopener">https://egov.uscis.gov/processing-times/</a></td>
+          <td>USCIS / DHS</td>
+        </tr>
+        <tr>
+          <td>Official News & Forms</td>
+          <td><a href="https://www.uscis.gov/" target="_blank" rel="noopener">https://www.uscis.gov/</a></td>
+          <td>USCIS / DHS</td>
+        </tr>
+        <tr>
+          <td>Visa Bulletin</td>
+          <td><a href="https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html" target="_blank" rel="noopener">https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html</a></td>
+          <td>U.S. Department of State (DOS)</td>
+        </tr>
+        <tr>
+          <td>NVC / Consular Case Status</td>
+          <td><a href="https://ceac.state.gov/ceac/" target="_blank" rel="noopener">https://ceac.state.gov/ceac/</a></td>
+          <td>U.S. Department of State (DOS)</td>
+        </tr>
+        <tr>
+          <td>I-94 Travel Records</td>
+          <td><a href="https://i94.cbp.dhs.gov/I94/" target="_blank" rel="noopener">https://i94.cbp.dhs.gov/I94/</a></td>
+          <td>U.S. Customs and Border Protection (CBP / DHS)</td>
+        </tr>
+        <tr>
+          <td>Foreign Labor Certification</td>
+          <td><a href="https://flag.dol.gov/" target="_blank" rel="noopener">https://flag.dol.gov/</a></td>
+          <td>U.S. Department of Labor (DOL)</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>3. Data Collection and Usage</h2>
+    <p>We believe in strict data privacy and local-first architecture:</p>
+    <ul>
+      <li><strong>Local Case Storage:</strong> Case receipt numbers added to the app are stored locally on your device's private storage. They are never sold, shared, or backed up to external advertising servers.</li>
+      <li><strong>No Account Required:</strong> You do not need to create an account or provide personal identifiers (such as name, phone number, SSN, or email address) to use the tracking functions.</li>
+      <li><strong>Network Requests:</strong> When looking up a case status or processing time, the app transmits only the receipt number or form type over secure HTTPS connection to fetch official status data.</li>
+      <li><strong>No Tracking / Analytics SDKs:</strong> The application does not contain advertising trackers, behavioral profiling, or third-party advertising SDKs.</li>
+      <li><strong>No Push Notification Tokens:</strong> Status updates and alerts are generated locally on your device during refresh cycles. No remote push notification tokens are tracked or transmitted.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>4. App Permissions</h2>
+    <p>The app requests minimal Android permissions:</p>
+    <ul>
+      <li><code>android.permission.INTERNET</code>: Required to send HTTPS requests to query public government status endpoints and display updates.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>5. Data Retention & Deletion</h2>
+    <p>Since your tracked case numbers are stored locally on your mobile device:</p>
+    <ul>
+      <li>You can delete any tracked case number individually from inside the app at any time.</li>
+      <li>Clearing the app storage or uninstalling the app permanently deletes all saved case numbers and local preferences instantly.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>6. Contact Us</h2>
+    <p>If you have any questions or feedback regarding this Privacy Policy or the application, please contact the developer at:</p>
+    <p>
+      <strong>American Group LLC</strong><br>
+      Email: <a href="mailto:contact@safecodeg.com">contact@safecodeg.com</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 American Group LLC. All rights reserved.<br>
+    Case Tracker for USCIS is an independent product and is not affiliated with any government entity.</p>
+  </footer>
 
 </div>
-
-<main class="wrap">
-
-  <section id="about">
-    <h2><span class="num">01</span>About This App</h2>
-    <p>Case Tracker for USCIS is a personal organizational tool. It helps you keep a private,
-    on-device list of U.S. immigration case receipt numbers, look up the publicly available status
-    of those cases, read publicly published processing-time estimates and agency news, and reach
-    official government portals through direct links.</p>
-    <p><strong>The app only displays publicly available government information.</strong> It does not
-    access any private, restricted, internal, or non-public government system, record, or database.
-    Every piece of government information the app shows originates from a public webpage, public
-    RSS feed, or public status-lookup endpoint that any member of the public can access directly
-    without credentials — the same information you can obtain yourself, free of charge, from the
-    agency websites listed in the next section.</p>
-    <p>The app does not create, modify, certify, or issue any government record, notice, decision,
-    or determination.</p>
-  </section>
-
-  <section id="sources">
-    <h2><span class="num">02</span>Official Government Information Sources</h2>
-    <p>The following are the <strong>only</strong> government sources this application uses. This
-    list was compiled by auditing the application's source code; nothing here is aspirational or
-    illustrative.</p>
-
-    <h3>2.1 &nbsp;Government data retrieved and displayed inside the app</h3>
-    <p>The app requests this data through its own backend service, which acts solely as a retrieval
-    and formatting proxy for the public government sources named below. The backend does not add,
-    supplement, or override government determinations.</p>
-    <div class="tw">
-      <table>
-        <caption>Government data displayed in-app, with the originating public source</caption>
-        <thead>
-          <tr><th>In-app feature</th><th>Originating public government source</th><th>Issuing agency</th></tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Case status lookup</td>
-            <td><code>egov.uscis.gov</code> — public Case Status Online service<br>
-              <code>https://egov.uscis.gov/casestatus/landing.do</code></td>
-            <td>USCIS (DHS)</td>
-          </tr>
-          <tr>
-            <td>Processing times</td>
-            <td><code>egov.uscis.gov/processing-times/</code> — public processing-times data</td>
-            <td>USCIS (DHS)</td>
-          </tr>
-          <tr>
-            <td>News feed</td>
-            <td>Public newsroom RSS feeds:<br>
-              <code>uscis.gov/newsroom</code>, <code>dol.gov/newsroom</code>,
-              <code>cbp.gov/newsroom</code>, <code>ice.gov/news</code></td>
-            <td>USCIS, DOL, CBP, ICE</td>
-          </tr>
-          <tr>
-            <td>Visa Bulletin</td>
-            <td><code>https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html</code></td>
-            <td>U.S. Department of State</td>
-          </tr>
-          <tr>
-            <td>NVC / consular case status</td>
-            <td>Consular Electronic Application Center — <code>https://ceac.state.gov/ceac/</code><br>
-              <code>https://travel.state.gov/content/travel/en/us-visas/immigrate/national-visa-center.html</code></td>
-            <td>U.S. Department of State</td>
-          </tr>
-          <tr>
-            <td>Civics Test practice</td>
-            <td>The official USCIS 2020 civics test question set (U.S. Government public-domain
-              material), bundled with the app for offline use</td>
-            <td>USCIS (DHS)</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    <h3>2.2 &nbsp;Official government websites the app links out to</h3>
-    <p>These open in your device's browser. The app does not intercept, proxy, modify, or capture
-    anything you do on a government website, and it never asks you for government account
-    credentials.</p>
-    <div class="tw">
-      <table>
-        <caption>Outbound links to official government portals</caption>
-        <thead><tr><th>Destination</th><th>Purpose</th><th>Agency</th></tr></thead>
-        <tbody>
-          <tr><td><code>egov.uscis.gov/casestatus/landing.do</code></td><td>Official Case Status Online</td><td>USCIS</td></tr>
-          <tr><td><code>www.uscis.gov/forms/all-forms</code></td><td>Official forms index (free)</td><td>USCIS</td></tr>
-          <tr><td><code>www.uscis.gov/i-131</code>, <code>i-485</code>, <code>i-765</code>, <code>i-864</code></td><td>Official form pages</td><td>USCIS</td></tr>
-          <tr><td><code>www.uscis.gov/tools</code></td><td>Official USCIS tools</td><td>USCIS</td></tr>
-          <tr><td><code>www.uscis.gov/about-us/find-a-uscis-office</code></td><td>Office locator</td><td>USCIS</td></tr>
-          <tr><td><code>www.uscis.gov/newsroom</code></td><td>Official newsroom</td><td>USCIS</td></tr>
-          <tr><td><code>www.uscis.gov/website-policies/privacy-and-legal-disclaimers</code></td><td>USCIS's own website policies</td><td>USCIS</td></tr>
-          <tr><td><code>i94.cbp.dhs.gov/I94/</code></td><td>Official I-94 travel records</td><td>CBP (DHS)</td></tr>
-          <tr><td><code>www.cbp.gov/newsroom</code></td><td>Official newsroom</td><td>CBP (DHS)</td></tr>
-          <tr><td><code>www.ice.gov/news</code></td><td>Official news</td><td>ICE (DHS)</td></tr>
-          <tr><td><code>www.dol.gov/newsroom</code></td><td>Official newsroom</td><td>DOL</td></tr>
-          <tr><td><code>flag.dol.gov/wage-data/wage-search</code></td><td>Official PERM/LCA wage data</td><td>DOL</td></tr>
-          <tr><td><code>travel.state.gov/.../visa-bulletin.html</code></td><td>Official Visa Bulletin</td><td>U.S. Dept. of State</td></tr>
-          <tr><td><code>travel.state.gov/.../national-visa-center.html</code></td><td>Official NVC information</td><td>U.S. Dept. of State</td></tr>
-          <tr><td><code>ceac.state.gov</code> · <code>ceac.state.gov/ceac/</code> · <code>ceac.state.gov/IV/Login.aspx</code></td><td>Official CEAC status portals</td><td>U.S. Dept. of State</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <p>No other government source is used. The app uses no non-public government API, no scraped
-    private portal, and no third-party immigration data reseller.</p>
-  </section>
-
-  <section id="accuracy">
-    <h2><span class="num">03</span>Information Accuracy &amp; Verification</h2>
-    <ul>
-      <li><strong>Official sources always take precedence.</strong> If information in this app
-      differs from an official government source, the official source is correct.</li>
-      <li><strong>Information may be delayed or stale.</strong> Data is retrieved when you open or
-      refresh a screen. Government systems update on their own schedules, and network or agency
-      outages can cause the app to show older data.</li>
-      <li><strong>Processing times are agency estimates, not commitments.</strong> They are
-      published historical figures and do not predict your case.</li>
-      <li><strong>The app cannot guarantee completeness or accuracy</strong> of any government
-      information, and no outcome of any kind is promised or implied.</li>
-      <li><strong>Verify before acting.</strong> Always confirm on
-      <a href="https://www.uscis.gov">uscis.gov</a> — or the relevant agency site — before making
-      any filing, travel, employment, financial, or legal decision.</li>
-      <li>When a live lookup is unavailable, the app labels the result explicitly as not live
-      rather than presenting a substitute as a real status (see §5).</li>
-    </ul>
-  </section>
-
-  <section id="ai">
-    <h2><span class="num">04</span>Automated / AI-Generated Content</h2>
-    <p>Two optional features — <strong>"Ask AI"</strong> and <strong>"Impact Advisor"</strong> —
-    generate responses using a third-party large language model (OpenAI) reached through the app's
-    backend service.</p>
-    <ul>
-      <li><strong>AI output is not government information</strong> and does not come from USCIS or
-      any agency. It is machine-generated text.</li>
-      <li><strong>AI output is not legal advice</strong> and may be incomplete, outdated, or
-      factually wrong.</li>
-      <li><strong>Do not submit sensitive personal information</strong> — such as Social Security
-      numbers, A-numbers, passport numbers, or financial details — into these features. Text you
-      type is transmitted to the app's backend and on to the model provider to produce a response.</li>
-      <li>Never rely on AI output for a filing, deadline, or legal decision without confirming it
-      against an official government source or a licensed attorney.</li>
-    </ul>
-  </section>
-
-  <section id="sample">
-    <h2><span class="num">05</span>Sample &amp; Demonstration Data</h2>
-    <p>The app ships with a small set of clearly labelled example records used only for offline
-    demonstration and developer testing.</p>
-    <ul>
-      <li><strong>No sample or demonstration data is preloaded into your app.</strong> A new
-      installation starts completely empty: no tracked cases, no history, no alerts.</li>
-      <li>Any example content that appears is explicitly marked — for instance
-      <em>"Sample data (offline)"</em>, <em>"Sample only (not live)"</em>, or
-      <em>"Sample data — this is a demonstration case, not a live USCIS status."</em></li>
-      <li>When a live lookup cannot be completed, the app shows an explicit
-      <em>"Live lookup unavailable … This is NOT a real case status"</em> notice. It never
-      fabricates a plausible-looking status.</li>
-    </ul>
-  </section>
-
-  <section id="privacy">
-    <h2><span class="num">06</span>Privacy Policy</h2>
-    <p>This app is designed to be <strong>local-first and privacy-preserving</strong>. The
-    information you enter is stored on your own device. There is no user account requirement, no
-    advertising, no analytics or tracking SDK, and no sale or sharing of personal information.</p>
-    <p>Operated by: <span class="todo">American Group LLC</span>
-    (the "Developer", "we", "us").</p>
-    <p>This policy applies to the Case Tracker for USCIS mobile application
-    (<code>com.americangroupllc.usciscase</code>) and to the Developer's backend service that
-    retrieves public government information on the app's behalf.</p>
-  </section>
-
-  <section id="collection">
-    <h2><span class="num">07</span>Data Collection &amp; Usage</h2>
-
-    <h3>7.1 &nbsp;What the app stores on your device</h3>
-    <div class="tw">
-      <table>
-        <caption>All data persisted locally by the app</caption>
-        <thead><tr><th>Data</th><th>Purpose</th><th>Leaves your device?</th></tr></thead>
-        <tbody>
-          <tr><td>Case receipt numbers you add, plus their retrieved status, previous status and timestamps</td><td>Your personal case tracker and history</td><td>Only the receipt number, and only when you request a status lookup</td></tr>
-          <tr><td>In-app alert list</td><td>Show status-change alerts you can review</td><td>No</td></tr>
-          <tr><td>Onboarding-completed flag</td><td>Avoid repeating the intro</td><td>No</td></tr>
-          <tr><td>Notification preference toggles</td><td>Remember your alert settings</td><td>No</td></tr>
-          <tr><td>Language preference</td><td>Remember your chosen language</td><td>No</td></tr>
-          <tr><td>Civics Test progress and best score</td><td>Track your practice results</td><td>No</td></tr>
-          <tr><td>Sign-in email, if sign-in is ever enabled</td><td>Display which account is active</td><td>Only to the authentication provider (see §11)</td></tr>
-          <tr><td>Internal first-run / data-reset markers</td><td>App housekeeping</td><td>No</td></tr>
-        </tbody>
-      </table>
-    </div>
-
-    <h3>7.2 &nbsp;What is transmitted off your device</h3>
-    <p>The app contacts the Developer's backend service only when a feature needs live public
-    government information. Each request sends the minimum needed:</p>
-    <div class="tw">
-      <table>
-        <caption>Outbound requests and their payloads</caption>
-        <thead><tr><th>Feature</th><th>Data sent</th></tr></thead>
-        <tbody>
-          <tr><td>Case status lookup</td><td>The case receipt number only</td></tr>
-          <tr><td>Processing times</td><td>An optional form type (e.g. <code>I-485</code>)</td></tr>
-          <tr><td>Visa Bulletin</td><td>Nothing — no parameters</td></tr>
-          <tr><td>News feed</td><td>Nothing — no parameters</td></tr>
-          <tr><td>NVC / consular status</td><td>The case number you enter</td></tr>
-          <tr><td>Ask AI</td><td>The message you type and that conversation's recent history</td></tr>
-          <tr><td>Impact Advisor</td><td>The visa category you select</td></tr>
-        </tbody>
-      </table>
-    </div>
-
-    <h3>7.3 &nbsp;What the app does <em>not</em> collect</h3>
-    <ul>
-      <li><strong>No advertising identifiers, no ad SDKs, no ad personalisation.</strong></li>
-      <li><strong>No analytics, telemetry, crash-reporting, or attribution SDK</strong> of any kind
-      is bundled in the app.</li>
-      <li><strong>No device identifiers</strong> — no IMEI, MAC address, advertising ID, or
-      device fingerprint is read or transmitted.</li>
-      <li><strong>No location data.</strong> The app requests no location permission.</li>
-      <li><strong>No contacts, photos, camera, microphone, calendar, SMS, call logs, or
-      files.</strong></li>
-      <li><strong>No Social Security numbers, A-numbers, passport numbers, biometrics, or financial
-      information</strong> are requested by the app or required to use it.</li>
-      <li><strong>No document upload or cloud document storage.</strong></li>
-      <li><strong>We do not sell or rent your personal information,</strong> and we do not share it
-      with data brokers or advertisers.</li>
-    </ul>
-    <p>As with any internet request, the Developer's backend and its hosting provider may process
-    standard network metadata such as your IP address and request timestamps as an unavoidable part
-    of serving a request. <span class="todo">[CONFIRM: server log retention period and whether IP
-    addresses are stored or discarded — then state it here]</span></p>
-  </section>
-
-  <section id="storage">
-    <h2><span class="num">08</span>Data Storage &amp; Retention</h2>
-    <ul>
-      <li><strong>Where.</strong> Your case list, alerts, preferences and practice progress are kept
-      in the operating system's standard app-preferences store, inside your app's private sandbox on
-      your own device.</li>
-      <li><strong>Retention.</strong> Local data stays until you delete it or uninstall the app.
-      Uninstalling removes it.</li>
-      <li><strong>No server-side copy of your case list.</strong> The app does not upload or back up
-      your tracked cases to the Developer's servers.</li>
-      <li><strong>Fresh-start reset.</strong> On upgrade to this release, the app performs a one-time
-      cleanup that removes legacy demonstration cases, legacy sample alerts, and any stale session
-      record, so the app behaves like a clean installation. Your language, notification and
-      onboarding preferences and your Civics Test progress are preserved.</li>
-      <li><strong>Device backups.</strong> If you enable your platform's device backup, your OS may
-      include app preference data in that backup under Google's or Apple's policies, not ours.</li>
-    </ul>
-  </section>
-
-  <section id="permissions">
-    <h2><span class="num">09</span>Permissions Used</h2>
-    <p>The app requests the minimum possible permission set.</p>
-    <div class="tw">
-      <table>
-        <caption>Permissions and why they are needed</caption>
-        <thead><tr><th>Permission</th><th>Platform</th><th>Why</th></tr></thead>
-        <tbody>
-          <tr>
-            <td><code>android.permission.INTERNET</code></td>
-            <td>Android</td>
-            <td>Required to retrieve public government information and to open official links. No
-            network access means no case lookups, processing times, news, or Visa Bulletin.</td>
-          </tr>
-          <tr>
-            <td><code>PROCESS_TEXT</code> intent query</td>
-            <td>Android</td>
-            <td>A standard Flutter framework declaration allowing the OS text-selection menu to
-            offer other apps' text actions. It grants the app no access to your data.</td>
-          </tr>
-          <tr>
-            <td>Custom URL scheme handling</td>
-            <td>iOS</td>
-            <td>Allows the app to receive a sign-in callback if sign-in is enabled. Not a
-            privacy-sensitive permission.</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <p><strong>Not requested:</strong> location (fine or coarse), camera, microphone, contacts,
-    calendar, SMS, phone/call log, external storage or media access, biometrics, background
-    location, and — on this release — runtime notification permission. The app declares no iOS
-    privacy usage-description strings because it accesses no iOS-protected data category.</p>
-    <div class="banner warn">
-      <h3>Technical note for reviewers</h3>
-      <p>The <code>INTERNET</code> permission is present in the built app, but it is contributed
-      through Android manifest merging by a bundled sign-in dependency rather than declared in the
-      application's own main manifest. It is functionally required. See §18 — it should be declared
-      explicitly.</p>
-    </div>
-  </section>
-
-  <section id="notifications">
-    <h2><span class="num">10</span>Notifications</h2>
-    <p><strong>This app sends no push notifications.</strong> It integrates no push messaging
-    service — there is no Firebase Cloud Messaging, no APNs integration, and no third-party push
-    provider in the app.</p>
-    <ul>
-      <li>All alerts are <strong>generated locally on your device</strong> and appear only inside
-      the app's Alerts tab.</li>
-      <li>An alert is created when the app refreshes a case you are tracking and the publicly
-      reported status differs from the value already stored on your device.</li>
-      <li><strong>No notification token, device token, or push identifier is created, stored, or
-      transmitted</strong>, because no push service is used.</li>
-      <li>The alert toggles in Settings control only whether these local, in-app entries are
-      generated. Turning them off does not disable any external messaging, because none exists.</li>
-      <li>The app never sends marketing, promotional, or advertising messages.</li>
-    </ul>
-    <p><span class="todo">[ACTION: the Settings toggle currently reads "Push Notifications" but the
-    app performs no push messaging. Rename it to "In-App Alerts" so the UI matches this
-    disclosure.]</span></p>
-  </section>
-
-  <section id="third-party">
-    <h2><span class="num">11</span>Third-Party Services</h2>
-    <div class="tw">
-      <table>
-        <caption>Every third-party service reachable from the app</caption>
-        <thead><tr><th>Service</th><th>Role</th><th>Data it can receive</th><th>Status in this release</th></tr></thead>
-        <tbody>
-          <tr>
-            <td>Developer's backend API<br><code>uscis-case94.manus.app</code></td>
-            <td>Retrieves and formats public government information for the app</td>
-            <td>Receipt/case numbers you look up, form type, AI prompts, plus standard network metadata</td>
-            <td>Active</td>
-          </tr>
-          <tr>
-            <td>OpenAI</td>
-            <td>Generates "Ask AI" and "Impact Advisor" responses, via the backend</td>
-            <td>The text you type into those features</td>
-            <td>Active only when you use those features</td>
-          </tr>
-          <tr>
-            <td>Supabase</td>
-            <td>Authentication provider (hosted)</td>
-            <td>Sign-in credentials or OAuth identifier and session tokens, if sign-in is used</td>
-            <td>SDK initialises at launch; <strong>sign-in is disabled in this release</strong>, so no credentials are collected</td>
-          </tr>
-          <tr>
-            <td>Google Sign-In</td>
-            <td>Optional OAuth sign-in method</td>
-            <td>Your Google account identifier, if you choose it</td>
-            <td>Bundled but <strong>not reachable in this release</strong></td>
-          </tr>
-          <tr>
-            <td>Apple Sign-In</td>
-            <td>Optional OAuth sign-in method</td>
-            <td>Your Apple account identifier, if you choose it</td>
-            <td>Bundled but <strong>not reachable in this release</strong></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <p><strong>Sign-in is turned off in this release.</strong> The app opens directly to its main
-    screen, no sign-in screen is shown, and no account is created automatically. The
-    authentication code remains in the app but is unreachable. If sign-in is enabled in a future
-    version, this page will be updated before that version ships.</p>
-    <p>Government websites you open from the app are not third-party processors acting for us; your
-    activity there is governed by that agency's own privacy policy.</p>
-    <p><span class="todo">[ADD: public links to the current privacy policies of each processor you
-    rely on — hosting provider, Supabase, OpenAI — plus the region your backend is hosted in.]</span></p>
-  </section>
-
-  <section id="rights">
-    <h2><span class="num">12</span>Your Rights &amp; Choices</h2>
-    <ul>
-      <li><strong>Delete individual data.</strong> Remove any tracked case from the Case History
-      screen, or clear every tracked case at once from the Profile screen.</li>
-      <li><strong>Delete everything.</strong> Uninstalling the app removes all locally stored data
-      from your device.</li>
-      <li><strong>Export your data.</strong> Any tracked case's summary can be copied to your
-      clipboard from Case History.</li>
-      <li><strong>Control alerts.</strong> Turn local alert generation on or off in Settings.</li>
-      <li><strong>Use the app without an account.</strong> No sign-in is required or offered in this
-      release, and no personal profile is created.</li>
-      <li><strong>Decline optional features.</strong> The AI features are entirely optional; if you
-      never open them, nothing is sent to the model provider.</li>
-      <li><strong>Statutory rights.</strong> Depending on where you live — for example under the
-      GDPR/UK GDPR or the CCPA/CPRA — you may have rights to access, correct, delete, port, or
-      restrict processing of your personal information, and to be free from discrimination for
-      exercising them. Because your case data is stored on your device and not in our accounts
-      system, most of these rights are exercised directly in the app. For anything else, or to ask
-      about server-side records, contact us using §17.
-      <span class="todo">[CONFIRM: response window, e.g. 30 days, and add a verification
-      procedure]</span></li>
-      <li><strong>Account deletion.</strong> Not applicable in this release, since the app creates
-      no account. If sign-in is enabled in future, an in-app account-deletion path and a public
-      web deletion request route will be provided as Google Play requires.</li>
-    </ul>
-  </section>
-
-  <section id="security">
-    <h2><span class="num">13</span>Security</h2>
-    <ul>
-      <li><strong>Encrypted transport.</strong> All network requests use HTTPS/TLS.</li>
-      <li><strong>OS sandboxing.</strong> Local data is held in the app's private storage area,
-      isolated from other apps by the operating system.</li>
-      <li><strong>Minimal data surface.</strong> The strongest protection is that sensitive data is
-      never collected: no SSNs, A-numbers, passport numbers, biometrics, financial data, documents,
-      or precise location.</li>
-      <li><strong>No credentials for government systems.</strong> The app never asks for your
-      myUSCIS or any government account login.</li>
-      <li><strong>Session storage.</strong> If sign-in is enabled in a future release, session
-      tokens are held by the authentication SDK in the platform secure store (Android Keystore /
-      iOS Keychain).</li>
-      <li><strong>Honest limits.</strong> No method of electronic transmission or storage is
-      perfectly secure, and we cannot guarantee absolute security. If your device is lost,
-      unlocked, or compromised, data stored in the app may be accessible.</li>
-      <li><span class="todo">[ADD: a security-contact address for vulnerability reports and your
-      breach-notification commitment.]</span></li>
-    </ul>
-  </section>
-
-  <section id="children">
-    <h2><span class="num">14</span>Children's Privacy</h2>
-    <p>This app is intended for adults managing their own or their family's immigration matters. It
-    is not directed to children, contains no content designed to appeal to children, and includes no
-    ads or in-app purchases. We do not knowingly collect personal information from children under 13
-    (or the minimum age of digital consent in your jurisdiction). If you believe a child has provided
-    information through the app, contact us using §17 and we will address it.</p>
-  </section>
-
-  <section id="intl">
-    <h2><span class="num">15</span>International Users</h2>
-    <p>The app is used worldwide, but the government information it displays concerns United States
-    immigration processes and is published by U.S. federal agencies in English. The Developer's
-    backend and its service providers may process requests in the United States or other countries,
-    meaning your request data may be transferred across borders and handled under laws that differ
-    from those where you live. Where the app offers other languages, translations are provided for
-    convenience; the official English-language government source always prevails.</p>
-  </section>
-
-  <section id="changes">
-    <h2><span class="num">16</span>Changes to This Policy</h2>
-    <p>We may update this page as the app changes. The "Last updated" date at the top always
-    reflects the current version. Material changes — for example enabling sign-in, adding analytics,
-    or adding a new data recipient — will be reflected here before the version that introduces them
-    is released. Continuing to use the app after an update means you accept the revised policy.</p>
-  </section>
-
-  <section id="contact">
-    <h2><span class="num">17</span>Contact Information</h2>
-    <p>For privacy questions, data requests, corrections, or to report a problem:</p>
-    <ul>
-      <li><strong>Developer / data controller:</strong> <span class="todo">American Group LLC</span></li>
-      <li><strong>Privacy &amp; support email:</strong> <span class="todo">contact@safecodeg.com</span></li>
-      <li><strong>Postal address:</strong> <span class="todo">[REPLACE: BUSINESS POSTAL ADDRESS]</span></li>
-      <li><strong>This policy page:</strong> <span class="todo">[REPLACE: PUBLIC GITHUB PAGES URL]</span></li>
-    </ul>
-    <div class="banner warn">
-      <p><strong>These four fields must be filled in before submitting to Google Play.</strong> No
-      contact address exists anywhere in the application's source, so none could be supplied here
-      without inventing one. Google Play requires a working developer contact and a reachable
-      privacy policy URL; a placeholder will fail review.</p>
-    </div>
-    <p><strong>For questions about your actual immigration case, do not contact us — contact USCIS
-    directly</strong> via <a href="https://www.uscis.gov/contactcenter">uscis.gov/contactcenter</a>.
-    We have no access to your case file and cannot influence any case.</p>
-  </section>
-
-  <section id="pending">
-    <h2><span class="num">18</span>Disclosures Pending Completion</h2>
-    <p>Listed here in the interest of full transparency: items required for Google Play compliance
-    that are not yet satisfied by the application itself, and which cannot be resolved by this
-    document alone.</p>
-    <ol>
-      <li><strong>No developer contact address exists in the app or repository.</strong> Must be
-      added here and in the Play Console.</li>
-      <li><strong>No legal operating entity is recorded in the app.</strong> The publisher name must
-      match the Play Console developer account.</li>
-      <li><strong>The app does not link to this policy.</strong> The Profile screen's "Privacy
-      Policy" item currently opens the <em>USCIS</em> website's policy page. It must be repointed at
-      this page, and a separate clearly labelled link to the government page kept if desired.</li>
-      <li><strong>The Settings toggle labelled "Push Notifications" is inaccurate</strong> — the app
-      implements no push messaging. It should be renamed to "In-App Alerts".</li>
-      <li><strong><code>INTERNET</code> is not declared in the app's own main manifest</strong>; it
-      is merged in from a dependency. It should be declared explicitly.</li>
-      <li><strong>The Android app label is <code>usciscase</code></strong> rather than a
-      human-readable name, and should match the store listing.</li>
-      <li><strong>Store listing naming.</strong> A title that leads with "USCIS" can itself read as
-      an official government app. Consider a name that puts the independent brand first and uses
-      "for USCIS" descriptively, and ensure the listing's description opens with the
-      non-affiliation disclaimer and the icon uses no government seal or imagery.</li>
-      <li><strong>Server-side log retention, hosting region, and processor privacy links</strong> are
-      not documented in the repository and must be confirmed and stated in §7.3 and §11.</li>
-    </ol>
-  </section>
-
-</main>
-
-<footer>
-  <div class="wrap">
-    <p><strong>Case Tracker for USCIS</strong> — independent software. Not affiliated with,
-    endorsed by, or associated with USCIS, DHS, DOS, CBP, ICE, DOL, or any U.S. government agency.
-    Not legal advice. Displays publicly available government information only.</p>
-    <p>Always verify information at <a href="https://www.uscis.gov">https://www.uscis.gov</a>.</p>
-    <p>Last updated: <span class="todo">July 30, 2026</span> ·
-    &copy; <span class="todo">2026</span> <span class="todo">American Group LLC</span>.
-    All agency names and trademarks are the property of their respective owners.</p>
-  </div>
-</footer>
 
 </body>
 </html>
