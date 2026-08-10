@@ -2400,5 +2400,41 @@
       "Simulation Engine": "Gazebo / ROS2 Humble",
       "Navigation": "Visual Inertial Odometry (VIO)"
     }
+  },
+  "kinnav": {
+    "id": "kinnav",
+    "title": "Kinnav",
+    "meta": "Women's Safety \u2022 Flutter",
+    "description": "Women's safety, empowerment and rewards app. One tap connects a user to vetted guardians nearby over voice or video, with live location sharing during a call, confirmed emergency dialling, and alerts to saved safety contacts.",
+    "tags": [
+      "Flutter",
+      "iOS",
+      "Android",
+      "Safety",
+      "Supabase"
+    ],
+    "badge": "Mobile",
+    "links": {
+      "github": "https://github.com/AmericanGroupLLC/Kinnav",
+      "demo": "https://kinnav.com/"
+    },
+    "archetype": "personal_safety",
+    "icon": "\ud83d\udee1\ufe0f",
+    "theme_color": "#BF6EEE",
+    "bg_gradient": "from-violet-950/40 to-slate-950",
+    "sim_type": "mobile",
+    "features": [
+      "Guardian Map: live map of vetted guardians nearby, with presence and distance.",
+      "Safe Call: one-tap voice, video or text connection to a guardian, with no time limit.",
+      "Emergency: confirmed emergency dial plus automatic alerts to saved safety contacts.",
+      "Guardian Programme: 40-hour advocacy course and vetting workflow; guardians are paid to respond."
+    ],
+    "specs": {
+      "Platforms": "iOS and Android (Flutter)",
+      "Bundle ID": "com.americangroupllc.kinnav",
+      "Authentication": "Supabase \u2014 Apple, Google and anonymous sign-in",
+      "Maps": "Google Maps with an offline painted fallback",
+      "Subscription": "$3.99/month or $39.99/year"
+    }
   }
 }
